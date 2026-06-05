@@ -69,6 +69,15 @@ def passes_client_filters(rec: dict, cfg: dict) -> bool:
 
 def run(args) -> int:
     cfg = yaml.safe_load(Path(args.config).read_text(encoding="utf-8")) or {}
+
+    if args.ping:
+        ok = notify.send(
+            "🔔 KNMT watcher test — Telegram is correct verbonden. "
+            f"Dashboard: {cfg.get('dashboard_url', '(niet ingesteld)')}"
+        )
+        print("[ping] sent" if ok else "[ping] FAILED — check token/chat id")
+        return 0 if ok else 1
+
     state = store.load_state(args.state)
     vacancies: dict = state["vacancies"]
     geocache: dict = state["geocache"]
@@ -222,6 +231,7 @@ def main() -> int:
     ap.add_argument("--dry-run", action="store_true", help="print diff, write nothing, send nothing")
     ap.add_argument("--no-detail", action="store_true", help="skip detail-page fetches (listing only)")
     ap.add_argument("--quiet", action="store_true", help="less per-detail logging")
+    ap.add_argument("--ping", action="store_true", help="send a Telegram test message and exit")
     return run(ap.parse_args())
 
 

@@ -34,4 +34,4 @@ max_new_details: null   # cap detail fetches per run (null = no cap). Useful to 
 
 # Where the dashboard lives, so notifications can link to it.
 # Set after enabling GitHub Pages, e.g. https://<user>.github.io/<repo>/
-dashboard_url: ""
+dashboard_url: "https://dyna-mit.github.io/knmt-watch/"

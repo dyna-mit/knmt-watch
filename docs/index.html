@@ -70,6 +70,19 @@
   </article>
 </template>
 
-<script src="app.js"></script>
+<script>
+  // Cache-busting loader: fetch the dataset first (never cached), then load app.js
+  // keyed to its version so the UI can't get stuck on a stale cached script —
+  // important for home-screen installs that cache aggressively.
+  fetch("data.json", { cache: "no-store" })
+    .then((r) => r.json())
+    .then((d) => { window.__KNMT_DATA__ = d; loadApp(encodeURIComponent(d.generated_at || Date.now())); })
+    .catch(() => loadApp(Date.now()));
+  function loadApp(v) {
+    var s = document.createElement("script");
+    s.src = "app.js?v=" + v;
+    document.body.appendChild(s);
+  }
+</script>
 </body>
 </html>

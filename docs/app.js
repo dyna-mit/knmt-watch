@@ -22,8 +22,9 @@ function load(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { r
 // ---------- data ----------
 async function init() {
   try {
-    const res = await fetch("data.json", { cache: "no-store" });
-    const data = await res.json();
+    // Use the dataset the cache-busting loader already fetched, if present.
+    const data = window.__KNMT_DATA__
+      || await (await fetch("data.json", { cache: "no-store" })).json();
     state.all = data.vacancies || [];
     $("#meta").textContent =
       `${data.count} vacatures · bijgewerkt ${fmtDate(data.generated_at)}`;

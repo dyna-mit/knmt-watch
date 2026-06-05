@@ -1,0 +1,37 @@
+# KNMT Vacancy Watcher configuration.
+#
+# Job type is always "Tandarts" (hardcoded in the scraper, not overridable here).
+# Everything below narrows the results further. Leave a list empty to NOT filter on it.
+# The canonical facet values are listed as comments so you can copy/paste them.
+
+filters:
+  # Provinces / regions. Empty = all of the Netherlands.
+  # Options: Buitenland, Drenthe, Flevoland, Friesland, Gelderland, Groningen,
+  #          Limburg, Noord-Brabant, Noord-Holland, Overijssel, Utrecht, Zeeland, Zuid-Holland
+  work_area: []
+
+  # Contract hours type. Options: Fulltime, Parttime, "In overleg"
+  contract: []
+
+  # Type of cooperation / employment. Options: zzp, vast, tijdelijk, stage, bbl, overleg, overig
+  type_samenwerking: []
+
+  # Practice type.
+  # Options: Instelling, "Praktijk met één tandarts", "Praktijk met meer tandartsen"
+  praktijk_type: []
+
+  # Client-side numeric filter: drop vacancies whose max hours/week is below this. null = off.
+  hours_min: null
+
+# Client-side title keyword rules (applied after scraping).
+keyword_include: []   # if set, title must contain at least one of these (case-insensitive)
+keyword_exclude: []   # title containing any of these is dropped
+
+# Safety / politeness.
+max_pages: 100          # hard cap on listing pages to walk (84 pages cover all Tandarts today)
+request_delay_sec: 0.4  # pause between detail-page fetches
+max_new_details: null   # cap detail fetches per run (null = no cap). Useful to throttle first run.
+
+# Where the dashboard lives, so notifications can link to it.
+# Set after enabling GitHub Pages, e.g. https://<user>.github.io/<repo>/
+dashboard_url: ""

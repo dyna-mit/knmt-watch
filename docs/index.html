@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0b7285" />
+<title>KNMT Tandarts-vacatures</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="bar">
+    <h1>KNMT Tandarts-vacatures</h1>
+    <span id="meta" class="meta"></span>
+  </div>
+  <input id="search" type="search" placeholder="Zoek op titel, praktijk, plaats, tekst…" autocomplete="off" />
+  <div class="filters">
+    <select id="f-area"><option value="">Alle regio's</option></select>
+    <select id="f-emp"><option value="">Alle dienstverbanden</option></select>
+    <label class="hours">Min. uren
+      <input id="f-hours" type="number" min="0" max="40" step="2" placeholder="0" />
+    </label>
+    <select id="sort">
+      <option value="date">Nieuwste eerst</option>
+      <option value="distance">Dichtstbij eerst</option>
+      <option value="title">Titel A→Z</option>
+    </select>
+  </div>
+  <div class="loc">
+    <input id="loc-input" type="text" placeholder="Jouw plaats/adres (voor reisafstand)" autocomplete="off" />
+    <button id="loc-set">Stel in</button>
+    <button id="loc-clear" class="ghost" title="Wissen">✕</button>
+    <details class="ors">
+      <summary>Reistijd (auto) ⚙</summary>
+      <p>Optioneel: plak een gratis <a href="https://openrouteservice.org/dev/#/signup" target="_blank" rel="noopener">OpenRouteService</a> API-sleutel voor echte rijtijd. Zonder sleutel tonen we hemelsbrede afstand.</p>
+      <input id="ors-key" type="password" placeholder="OpenRouteService API key" autocomplete="off" />
+      <button id="ors-save">Opslaan</button>
+    </details>
+    <span id="loc-status" class="loc-status"></span>
+  </div>
+</header>
+
+<main id="list" aria-live="polite"></main>
+<footer><span id="count"></span></footer>
+
+<template id="card-tpl">
+  <article class="card">
+    <div class="card-head">
+      <h2 class="title"></h2>
+      <span class="dist badge"></span>
+    </div>
+    <div class="sub"></div>
+    <div class="tags"></div>
+    <div class="excerpt"></div>
+    <div class="more" hidden>
+      <div class="block offer"></div>
+      <div class="block req"></div>
+      <div class="block desc"></div>
+      <div class="contact"></div>
+    </div>
+    <div class="actions">
+      <button class="toggle">Meer ▾</button>
+      <a class="open" target="_blank" rel="noopener">Open op KNMT ↗</a>
+    </div>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+"""KNMT vacancy watcher package."""

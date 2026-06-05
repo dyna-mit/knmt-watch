@@ -10,7 +10,11 @@ const state = {
   origin: load(LS.loc),          // {lat,lng,label} | null
   orsKey: localStorage.getItem(LS.orsKey) || "",
   driveMin: {},                  // slug -> minutes (for current origin)
+  days: new Set(),               // selected weekday codes
 };
+
+const DAY_ORDER = ["ma", "di", "wo", "do", "vr", "za", "zo"];
+const DAY_LABEL = { ma: "Ma", di: "Di", wo: "Wo", do: "Do", vr: "Vr", za: "Za", zo: "Zo" };
 
 const $ = (sel) => document.querySelector(sel);
 function load(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } }
@@ -49,10 +53,17 @@ function currentList() {
   const minH = parseInt($("#f-hours").value, 10) || 0;
   const sort = $("#sort").value;
 
+  const includeNegot = $("#f-negot").checked;
   let list = state.all.filter((v) => {
     if (area && !(v.work_areas || []).includes(area)) return false;
     if (emp && v.employment_type !== emp) return false;
     if (minH && !(v.hours_max >= minH)) return false;
+    if (state.days.size) {
+      const vdays = v.days || [];
+      const explicit = vdays.some((d) => state.days.has(d));
+      const flexible = includeNegot && (v.days_negotiable || vdays.length === 0);
+      if (!explicit && !flexible) return false;
+    }
     if (q) {
       const hay = `${v.title} ${v.practice} ${v.city} ${v.description} ${v.requirements} ${v.what_we_offer}`.toLowerCase();
       if (!hay.includes(q)) return false;
@@ -94,7 +105,12 @@ function card(tpl, v) {
   el.querySelector(".sub").textContent = subBits.join(" · ");
 
   const tags = [v.work_area, v.employment_type, v.hours].filter(Boolean);
-  el.querySelector(".tags").innerHTML = tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("");
+  let tagHtml = tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("");
+  if (v.days && v.days.length) {
+    tagHtml += v.days.map((d) => `<span class="tag day">${DAY_LABEL[d] || d}</span>`).join("");
+  }
+  if (v.days_negotiable) tagHtml += `<span class="tag negot">in overleg</span>`;
+  el.querySelector(".tags").innerHTML = tagHtml;
 
   const distEl = el.querySelector(".dist");
   distEl.textContent = metricLabel(v);
@@ -202,11 +218,30 @@ async function computeDriveTimes() {
 }
 
 // ---------- UI wiring ----------
+function buildDayToggles() {
+  const box = $("#day-toggles");
+  box.innerHTML = "";
+  for (const d of DAY_ORDER) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "day-toggle";
+    b.textContent = DAY_LABEL[d];
+    b.addEventListener("click", () => {
+      if (state.days.has(d)) { state.days.delete(d); b.classList.remove("on"); }
+      else { state.days.add(d); b.classList.add("on"); }
+      render();
+    });
+    box.appendChild(b);
+  }
+}
+
 function bindUI() {
   let t;
   const deb = () => { clearTimeout(t); t = setTimeout(render, 150); };
   $("#search").addEventListener("input", deb);
   for (const id of ["#f-area", "#f-emp", "#f-hours", "#sort"]) $(id).addEventListener("input", render);
+  $("#f-negot").addEventListener("change", render);
+  buildDayToggles();
   $("#loc-set").addEventListener("click", () => {
     const v = $("#loc-input").value.trim(); if (v) setLocation(v);
   });

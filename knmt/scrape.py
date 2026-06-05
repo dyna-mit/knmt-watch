@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import re
+import time
 from dataclasses import dataclass, field
 
 from bs4 import BeautifulSoup
@@ -107,11 +108,16 @@ def parse_listing_page(html: str) -> list[Listing]:
     return out
 
 
-def fetch_listings(config_filters: dict, max_pages: int = 100) -> list[Listing]:
-    """Walk listing pages until one returns no cards (or max_pages reached)."""
+def fetch_listings(config_filters: dict, max_pages: int = 100, delay: float = 0) -> list[Listing]:
+    """Walk listing pages until one returns no cards (or max_pages reached).
+
+    `delay` pauses between page fetches to keep the request rate gentle on KNMT.
+    """
     facets = build_facets(config_filters)
     seen: dict[str, Listing] = {}
     for page in range(max_pages):
+        if page and delay:
+            time.sleep(delay)
         resp = http.get(BASE_URL, params=_facet_params(facets, page))
         rows = parse_listing_page(resp.text)
         if not rows:

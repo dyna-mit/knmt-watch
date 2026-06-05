@@ -8,7 +8,7 @@ filters:
   # Provinces / regions. Empty = all of the Netherlands.
   # Options: Buitenland, Drenthe, Flevoland, Friesland, Gelderland, Groningen,
   #          Limburg, Noord-Brabant, Noord-Holland, Overijssel, Utrecht, Zeeland, Zuid-Holland
-  work_area: []
+  work_area: [Zuid-Holland]
 
   # Contract hours type. Options: Fulltime, Parttime, "In overleg"
   contract: []
@@ -27,9 +27,11 @@ filters:
 keyword_include: []   # if set, title must contain at least one of these (case-insensitive)
 keyword_exclude: []   # title containing any of these is dropped
 
-# Safety / politeness.
-max_pages: 100          # hard cap on listing pages to walk (84 pages cover all Tandarts today)
-request_delay_sec: 0.4  # pause between detail-page fetches
+# Safety / politeness. Runtime doesn't matter (Actions minutes are free on public repos),
+# so we keep the request RATE low to stay gentle on KNMT. This delay is applied between
+# both listing-page fetches and detail-page fetches. Raise it to go even slower.
+max_pages: 100          # hard cap on listing pages to walk
+request_delay_sec: 5    # seconds to pause between every KNMT request
 max_new_details: null   # cap detail fetches per run (null = no cap). Useful to throttle first run.
 
 # Where the dashboard lives, so notifications can link to it.

@@ -1,8 +1,9 @@
-name: Daily KNMT vacancy check
+name: KNMT vacancy check (twice weekly)
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # 05:00 UTC = 07:00 Europe/Amsterdam (summer)
+    # Mondays & Thursdays at 05:00 UTC = 07:00 Europe/Amsterdam (summer).
+    - cron: "0 5 * * 1,4"
   workflow_dispatch: {}    # allow manual "Run workflow"
 
 permissions:

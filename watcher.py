@@ -20,6 +20,7 @@ from pathlib import Path
 
 import yaml
 
+from knmt import days as days_mod
 from knmt import detail as detail_mod
 from knmt import geocode, notify, scrape, store
 
@@ -34,6 +35,13 @@ DETAIL_FIELDS = (
 
 def now_iso() -> str:
     return dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+
+
+def annotate_days(rec: dict) -> None:
+    """Derive required workdays from the posting text (no extra request needed)."""
+    text = " ".join(str(rec.get(k) or "") for k in
+                    ("title", "description", "requirements", "what_we_offer"))
+    rec["days"], rec["days_negotiable"] = days_mod.extract_workdays(text)
 
 
 def content_hash(record: dict) -> str:
@@ -69,13 +77,13 @@ def run(args) -> int:
     prev_active = {s for s, v in vacancies.items() if not v.get("removed_on")}
     first_run = len(vacancies) == 0
 
-    listings = scrape.fetch_listings(cfg.get("filters", {}), cfg.get("max_pages", 100))
+    delay = cfg.get("request_delay_sec") or 0
+    listings = scrape.fetch_listings(cfg.get("filters", {}), cfg.get("max_pages", 100), delay)
     print(f"[scrape] {len(listings)} tandarts listings found")
 
     current_slugs = set()
     details_fetched = 0
     max_new = cfg.get("max_new_details")
-    delay = cfg.get("request_delay_sec") or 0
 
     for lst in listings:
         current_slugs.add(lst.slug)
@@ -122,6 +130,7 @@ def run(args) -> int:
                 print(f"  [detail] FAILED {lst.slug}: {exc}")
 
         rec["last_seen"] = today
+        annotate_days(rec)
         vacancies[lst.slug] = rec
 
     # Mark vacancies that disappeared.
@@ -179,6 +188,7 @@ def write_dashboard(out_path: str, vacancies: dict, cfg: dict, generated_at: str
             "slug", "url", "title", "city", "practice", "work_area", "work_areas",
             "vacancy_type",
             "hours", "hours_max", "employment_type", "date_posted", "changed_date",
+            "days", "days_negotiable",
             "description", "requirements", "what_we_offer",
             "contact_name", "contact_email", "contact_phone",
             "lat", "lng", "first_seen",

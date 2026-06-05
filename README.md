@@ -3,7 +3,7 @@
 Monitors the [KNMT vacancy bank](https://knmt.nl/vacatures) for **Tandarts** positions and gives you two things, both free and serverless:
 
 1. **A browsable dashboard** (GitHub Pages) — search, filter by region / dienstverband / hours, read the full posting, and see **distance / driving time from your location**.
-2. **A daily Telegram push** telling you **what changed** since yesterday (new ✚ / removed ✖).
+2. **A twice-weekly Telegram push** (Mon & Thu) telling you **what changed** since last run (new ✚ / removed ✖).
 
 One scheduled job (GitHub Actions, runs even when your PC is off) scrapes KNMT, fetches detail pages **incrementally** (only new/changed postings), geocodes each practice city, diffs against the previous run, updates the dashboard data, and notifies you.
 
@@ -54,9 +54,9 @@ Your dashboard URL becomes `https://<user>.github.io/<repo>/`. Put that URL in `
 
 ### 4. Configure & seed
 - Edit `config.yaml` (regions, hours, keywords).
-- Trigger the first run: **Actions → Daily KNMT vacancy check → Run workflow**.
+- Trigger the first run: **Actions → KNMT vacancy check (twice weekly) → Run workflow**.
   The first run sends a one-line "baseline set" Telegram message and seeds `state.json`.
-  After that you only get change alerts. The daily 07:00 (NL) cron takes over automatically.
+  After that you only get change alerts. The twice-weekly (Mon & Thu, 07:00 NL) cron takes over automatically.
 
 ### 5. (Optional) Real driving time
 Sign up free at [openrouteservice.org](https://openrouteservice.org/dev/#/signup), and on the

@@ -49,6 +49,8 @@ input, select, button { font: inherit; }
 .tag.rating { background: #fff7d6; color: #8a6d00; font-weight: 600; }
 .tag.start { background: #eef1ff; color: #3a46b5; }
 .tag.start.direct { background: #e3f6e8; color: #1f7a3a; font-weight: 600; }
+.tag.evening { background: #ede9fe; color: #5b3aa6; font-weight: 600; }
+.tag.weekend { background: #ffe7e0; color: #b5432a; font-weight: 600; }
 
 .practice-info .enr-rows { font-size: 14px; line-height: 1.7; }
 .practice-info .src { color: var(--muted); font-size: 12px; }

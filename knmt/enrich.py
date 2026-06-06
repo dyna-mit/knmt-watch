@@ -307,8 +307,111 @@ def big_check_people(people: list[dict]) -> list[dict]:
     return out
 
 
-def add_photos(record: dict) -> bool:
-    """Backfill practice + team photos for an already-enriched record using its known
+_DAY_EN = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+_DAY_NL = {"monday": "Ma", "tuesday": "Di", "wednesday": "Wo", "thursday": "Do",
+           "friday": "Vr", "saturday": "Za", "sunday": "Zo"}
+_DAY_CODE = {"mo": "monday", "tu": "tuesday", "we": "wednesday", "th": "thursday",
+             "fr": "friday", "sa": "saturday", "su": "sunday"}
+_NL_DAY = {"maandag": "monday", "dinsdag": "tuesday", "woensdag": "wednesday",
+           "donderdag": "thursday", "vrijdag": "friday", "zaterdag": "saturday",
+           "zondag": "sunday", "ma": "monday", "di": "tuesday", "wo": "wednesday",
+           "do": "thursday", "vr": "friday", "za": "saturday", "zo": "sunday"}
+_TIME_RE = re.compile(r"\b([01]?\d|2[0-3])[:.]([0-5]\d)\b")
+
+
+def _mins(hhmm: str) -> int | None:
+    m = _TIME_RE.search(hhmm or "")
+    return int(m.group(1)) * 60 + int(m.group(2)) if m else None
+
+
+def _day_span(a: str, b: str, lookup: dict) -> list[str]:
+    a, b = lookup.get(a), lookup.get(b)
+    if a in _DAY_EN and b in _DAY_EN:
+        i, j = _DAY_EN.index(a), _DAY_EN.index(b)
+        return _DAY_EN[i:j + 1] if i <= j else []
+    return []
+
+
+def extract_opening_hours(html: str) -> dict:
+    """Best-effort opening hours from JSON-LD or the 'Openingstijden' text.
+
+    Returns {opening_hours: str|None, has_weekend: bool, has_evening: bool,
+             latest_close: 'HH:MM'|None}. "Evening" = closes after 17:00.
+    """
+    out = {"opening_hours": None, "has_weekend": False, "has_evening": False, "latest_close": None}
+    spec: list[tuple[str, int, int]] = []  # (day_en, open_min, close_min)
+
+    # 1) JSON-LD openingHoursSpecification / openingHours string.
+    for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
+        try:
+            data = json.loads(block)
+        except (json.JSONDecodeError, TypeError):
+            continue
+
+        def walk(o):
+            if isinstance(o, dict):
+                ohs = o.get("openingHoursSpecification")
+                for s in (ohs if isinstance(ohs, list) else [ohs] if ohs else []):
+                    if not isinstance(s, dict):
+                        continue
+                    days = s.get("dayOfWeek") or []
+                    days = days if isinstance(days, list) else [days]
+                    op, cl = _mins(s.get("opens", "")), _mins(s.get("closes", ""))
+                    for d in days:
+                        dn = str(d).rsplit("/", 1)[-1].lower()
+                        if dn in _DAY_EN and op is not None and cl is not None:
+                            spec.append((dn, op, cl))
+                oh = o.get("openingHours")
+                for line in (oh if isinstance(oh, list) else [oh] if oh else []):
+                    m = re.match(r"\s*([A-Za-z]{2})\s*-\s*([A-Za-z]{2})\s+(\d\d:\d\d)-(\d\d:\d\d)", str(line))
+                    if m:
+                        for dn in _day_span(m.group(1).lower(), m.group(2).lower(), _DAY_CODE):
+                            spec.append((dn, _mins(m.group(3)), _mins(m.group(4))))
+                for v in o.values():
+                    walk(v)
+            elif isinstance(o, list):
+                for v in o:
+                    walk(v)
+        walk(data)
+
+    # 2) Free-text fallback around an "Openingstijden" heading.
+    if not spec:
+        m = re.search(r"openingstijden", html, re.I)
+        if m:
+            chunk = _clean(html[m.start(): m.start() + 500]).lower()
+            day_alt = "|".join(_NL_DAY)
+            for mm in re.finditer(
+                rf"({day_alt})(?:\s*(?:t/m|-|–|tot)\s*({day_alt}))?\s*:?\s*"
+                rf"(\d{{1,2}}[:.]\d{{2}})\s*(?:tot|-|–|t/m)\s*(\d{{1,2}}[:.]\d{{2}})", chunk):
+                d1, d2, t1, t2 = mm.groups()
+                days = _day_span(d1, d2, _NL_DAY) if d2 else [_NL_DAY[d1]]
+                op, cl = _mins(t1), _mins(t2)
+                for dn in days:
+                    if op is not None and cl is not None:
+                        spec.append((dn, op, cl))
+
+    if not spec:
+        return out
+
+    # Dedupe + compute flags.
+    seen = {}
+    for dn, op, cl in spec:
+        seen[dn] = (op, cl)
+    out["has_weekend"] = any(d in seen for d in ("saturday", "sunday"))
+    closes = [cl for op, cl in seen.values()]
+    if closes:
+        latest = max(closes)
+        out["latest_close"] = f"{latest // 60:02d}:{latest % 60:02d}"
+        out["has_evening"] = latest > 17 * 60
+    # Human summary in weekday order.
+    parts = [f"{_DAY_NL[d]} {seen[d][0]//60:02d}:{seen[d][0]%60:02d}-{seen[d][1]//60:02d}:{seen[d][1]%60:02d}"
+             for d in _DAY_EN if d in seen]
+    out["opening_hours"] = ", ".join(parts)
+    return out
+
+
+def backfill_site(record: dict) -> bool:
+    """Backfill photos + opening hours for an already-enriched record using its known
     website (no web search). Returns True if anything was added. Preserves other fields.
     """
     url = record.get("website")
@@ -329,7 +432,6 @@ def add_photos(record: dict) -> bool:
     fresh = extract_people(team_html, base_url=team_url or url)
     if fresh:
         by_name = {p["name"]: p for p in fresh}
-        # Add photos to existing team entries; add any newly found people.
         for p in record.get("team", []):
             fp = by_name.pop(p["name"], None)
             if fp and fp.get("photo") and not p.get("photo"):
@@ -337,6 +439,13 @@ def add_photos(record: dict) -> bool:
                 changed = True
         for leftover in by_name.values():
             record.setdefault("team", []).append(leftover)
+            changed = True
+    if not record.get("opening_hours"):
+        oh = extract_opening_hours(home)
+        if not oh["opening_hours"] and team_html != home:
+            oh = extract_opening_hours(team_html)
+        if oh["opening_hours"]:
+            record.update(oh)
             changed = True
     return changed
 
@@ -349,6 +458,7 @@ def enrich_practice(practice: str, city: str, contact_name: str = "") -> dict:
         "website": None, "website_title": None, "description": None,
         "kvk": None, "kvk_url": None, "emails": [], "practice_photo": None,
         "rating": None, "reviews": None, "zorgkaart_url": None,
+        "opening_hours": None, "has_weekend": False, "has_evening": False, "latest_close": None,
         "team": [], "big_checks": [], "enriched_at": None,
     }
     site = find_website(practice, city)
@@ -369,6 +479,11 @@ def enrich_practice(practice: str, city: str, contact_name: str = "") -> dict:
             m = _KVK_RE.search(BeautifulSoup(team_html, "lxml").get_text(" "))
             if m:
                 result["kvk"] = m.group(1)
+        # Opening hours from homepage, else the team/contact page.
+        oh = extract_opening_hours(site.get("_html") or "")
+        if not oh["opening_hours"] and team_html:
+            oh = extract_opening_hours(team_html)
+        result.update(oh)
     result["team"] = people
     result["big_checks"] = big_check_people(people)
 

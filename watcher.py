@@ -199,6 +199,7 @@ def run(args) -> int:
 ENRICH_FIELDS = (
     "website", "website_title", "description", "kvk", "kvk_url", "emails", "practice_photo",
     "rating", "reviews", "zorgkaart_url", "team", "big_checks",
+    "opening_hours", "has_weekend", "has_evening", "latest_close",
 )
 
 

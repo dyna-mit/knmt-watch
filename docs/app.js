@@ -63,6 +63,7 @@ function updateFilterSummary() {
   if ($("#f-since").value) n++;
   if ($("#f-reviews").checked) n++;
   if ($("#f-direct").checked) n++;
+  if ($("#f-hours-ext").checked) n++;
   if (state.days.size) n += state.days.size;
   $("#filters-summary").innerHTML =
     "⚙ Filters &amp; sortering" + (n ? ` <span class="fcount">${n} actief</span>` : "");
@@ -99,6 +100,7 @@ function currentList() {
   const includeNegot = $("#f-negot").checked;
   const onlyReviews = $("#f-reviews").checked;
   const onlyDirect = $("#f-direct").checked;
+  const onlyExt = $("#f-hours-ext").checked;
   const since = $("#f-since").value;   // "YYYY-MM" cutoff, or ""
   let list = state.all.filter((v) => {
     if (area && !(v.work_areas || []).includes(area)) return false;
@@ -106,6 +108,7 @@ function currentList() {
     if (minH && !(v.hours_max >= minH)) return false;
     if (onlyReviews && !(v.enrichment && v.enrichment.rating)) return false;
     if (onlyDirect && v.start_sort !== "0000-00-00") return false;
+    if (onlyExt && !(v.enrichment && (v.enrichment.has_evening || v.enrichment.has_weekend))) return false;
     if (since && (v.date_posted || "") < since) return false;
     if (state.days.size) {
       const vdays = v.days || [];
@@ -189,7 +192,17 @@ function tagsHtml(v, withRating = true) {
     const e = v.enrichment;
     out.push(`<span class="tag rating">★ ${e.rating}${e.reviews ? " · " + e.reviews : ""}</span>`);
   }
+  if (withRating) out.push(enrichFlags(v.enrichment));
   return out.join("");
+}
+
+// Opening-hours flags shown at practice level.
+function enrichFlags(e) {
+  if (!e) return "";
+  let h = "";
+  if (e.has_evening) h += `<span class="tag evening">🌙 avond${e.latest_close ? " tot " + e.latest_close : ""}</span>`;
+  if (e.has_weekend) h += `<span class="tag weekend">📅 weekend</span>`;
+  return h;
 }
 
 // Fills the expandable details (offer/req/desc/contact), open link and toggle button.
@@ -234,8 +247,9 @@ function groupCard(items) {
     `${esc(v0.city || "")} · <span class="multi">${items.length} vacature${items.length > 1 ? "s" : ""}</span>`;
   el.querySelector(".dist").textContent = metricLabel(v0);
   const e = v0.enrichment;
-  el.querySelector(".gtags").innerHTML = e && e.rating
-    ? `<span class="tag rating">★ ${e.rating}${e.reviews ? " · " + e.reviews : ""}</span>` : "";
+  el.querySelector(".gtags").innerHTML =
+    (e && e.rating ? `<span class="tag rating">★ ${e.rating}${e.reviews ? " · " + e.reviews : ""}</span>` : "")
+    + enrichFlags(e);
   renderEnrichment(el.querySelector(".practice-info"), v0.enrichment);
 
   const tabsEl = el.querySelector(".gtabs");
@@ -300,6 +314,10 @@ function renderEnrichment(node, enr) {
   }
   if (enr.emails && enr.emails.length) {
     rows.push(`✉️ ${enr.emails.slice(0, 2).map((e) => `<a href="mailto:${esc(e)}">${esc(e)}</a>`).join(", ")}`);
+  }
+  if (enr.opening_hours) {
+    const flag = [enr.has_evening ? "🌙 avond" : "", enr.has_weekend ? "📅 weekend" : ""].filter(Boolean).join(" · ");
+    rows.push(`🕐 ${esc(enr.opening_hours)}${flag ? ` <span class="src">(${flag})</span>` : ""}`);
   }
 
   // Team grid (photos + names + confirmed BIG). Names are best-effort from the site.
@@ -436,7 +454,7 @@ function bindUI() {
   const deb = () => { clearTimeout(t); t = setTimeout(render, 150); };
   $("#search").addEventListener("input", deb);
   for (const id of ["#f-area", "#f-emp", "#f-hours", "#sort", "#f-since"]) $(id).addEventListener("input", render);
-  for (const id of ["#f-negot", "#f-reviews", "#f-direct", "#f-group"]) $(id).addEventListener("change", render);
+  for (const id of ["#f-negot", "#f-reviews", "#f-direct", "#f-hours-ext", "#f-group"]) $(id).addEventListener("change", render);
   buildDayToggles();
   $("#loc-set").addEventListener("click", () => {
     const v = $("#loc-input").value.trim(); if (v) setLocation(v);

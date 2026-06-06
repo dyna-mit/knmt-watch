@@ -80,7 +80,12 @@ main { max-width: 760px; margin: 0 auto; padding: 12px; display: grid; gap: 10px
 .vac-title { font-size: 14.5px; font-weight: 600; margin-bottom: 6px; }
 
 .group { border-left: 3px solid var(--accent); }
-.gvacs { margin-top: 8px; }
+.gtabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 0; border-bottom: 2px solid var(--line); padding-bottom: 0; }
+.gtab { background: var(--badge); color: var(--muted); border: 1px solid var(--line); border-bottom: none; border-radius: 8px 8px 0 0; padding: 6px 11px; font-size: 13px; cursor: pointer; margin-bottom: -2px; max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.gtab.active { background: var(--card); color: var(--accent); font-weight: 600; border-color: var(--line); border-bottom: 2px solid var(--card); }
+.gtab-n { display: inline-block; min-width: 17px; text-align: center; background: var(--accent-soft); color: var(--accent); border-radius: 50%; font-size: 11px; font-weight: 700; }
+.gtabcontent { padding-top: 4px; }
+.gtabcontent .vacrow { border-top: none; padding-top: 6px; }
 .vacrow { border-top: 1px solid var(--line); padding: 8px 0 6px; }
 .vacrow-head { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
 .vacrow .vac-title { font-size: 14px; font-weight: 600; margin: 0; }

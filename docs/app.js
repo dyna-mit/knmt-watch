@@ -215,14 +215,37 @@ function groupCard(items) {
   el.querySelector(".loc-line").innerHTML =
     `${esc(v0.city || "")} · <span class="multi">${items.length} vacature${items.length > 1 ? "s" : ""}</span>`;
   el.querySelector(".dist").textContent = metricLabel(v0);
-  // Group-level chips: rating only (the practice's), once.
   const e = v0.enrichment;
   el.querySelector(".gtags").innerHTML = e && e.rating
     ? `<span class="tag rating">★ ${e.rating}${e.reviews ? " · " + e.reviews : ""}</span>` : "";
   renderEnrichment(el.querySelector(".practice-info"), v0.enrichment);
-  const vacs = el.querySelector(".gvacs");
+
+  const tabsEl = el.querySelector(".gtabs");
+  const contentEl = el.querySelector(".gtabcontent");
   const rt = $("#vacrow-tpl");
-  for (const v of items) vacs.appendChild(vacRow(rt, v));
+
+  function show(i) {
+    contentEl.innerHTML = "";
+    contentEl.appendChild(vacRow(rt, items[i]));
+    [...tabsEl.children].forEach((b, j) => b.classList.toggle("active", j === i));
+  }
+
+  if (items.length === 1) {
+    tabsEl.hidden = true;
+    contentEl.appendChild(vacRow(rt, items[0]));
+  } else {
+    items.forEach((v, i) => {
+      const b = document.createElement("button");
+      b.className = "gtab";
+      b.type = "button";
+      b.setAttribute("role", "tab");
+      const label = trim((v.title || "").trim(), 22) || `Vacature ${i + 1}`;
+      b.innerHTML = `<span class="gtab-n">${i + 1}</span> ${esc(label)}`;
+      b.addEventListener("click", () => show(i));
+      tabsEl.appendChild(b);
+    });
+    show(0);
+  }
   return el;
 }
 

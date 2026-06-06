@@ -59,6 +59,8 @@ def main() -> int:
     ap.add_argument("--data", default=str(ROOT / "docs" / "data.json"))
     ap.add_argument("--limit", type=int, default=None, help="max practices to enrich this run")
     ap.add_argument("--force", action="store_true", help="re-enrich even if cached")
+    ap.add_argument("--max-age-days", type=int, default=None,
+                    help="also re-enrich cached practices older than N days (for monthly refresh)")
     ap.add_argument("--delay", type=float, default=3.0, help="seconds between practices")
     ap.add_argument("--refresh-data", action="store_true",
                     help="rewrite docs/data.json with enrichment merged after the run")
@@ -68,7 +70,24 @@ def main() -> int:
     cache = load_json(Path(args.out), {})
     practices = distinct_practices(state.get("vacancies", {}))
 
-    todo = [p for p in practices if args.force or key(p[0], p[1]) not in cache]
+    def is_stale(rec: dict) -> bool:
+        if args.max_age_days is None:
+            return False
+        ts = (rec or {}).get("enriched_at")
+        if not ts:
+            return True
+        try:
+            age = dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(
+                ts.replace("Z", "+00:00"))
+            return age.days >= args.max_age_days
+        except ValueError:
+            return True
+
+    def needs(p) -> bool:
+        k = key(p[0], p[1])
+        return args.force or k not in cache or is_stale(cache.get(k))
+
+    todo = [p for p in practices if needs(p)]
     if args.limit:
         todo = todo[: args.limit]
     print(f"[enrich] {len(practices)} distinct practices, {len(todo)} to process "

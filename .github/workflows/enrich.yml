@@ -1,0 +1,59 @@
+name: Monthly practice enrichment
+
+# Refreshes practice enrichment (website, reviews, KvK, BIG, photos) once a month.
+# NOTE: enrichment relies on DuckDuckGo + the BIG API, which can rate-limit GitHub's
+# datacenter IPs — so this is best-effort. Gaps can be topped up with a local run:
+#   python enrich_runner.py --max-age-days 25 --refresh-data
+
+on:
+  schedule:
+    - cron: "0 4 1 * *"     # 04:00 UTC on the 1st of every month
+  workflow_dispatch:
+    inputs:
+      max_age_days:
+        description: "Re-enrich practices older than N days"
+        type: string
+        default: "25"
+      limit:
+        description: "Max practices this run"
+        type: string
+        default: "80"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: knmt-enrich
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Enrich (stale + new practices)
+        continue-on-error: true   # web search can be flaky from CI; never fail the job
+        run: |
+          python enrich_runner.py \
+            --max-age-days ${{ github.event.inputs.max_age_days || '25' }} \
+            --limit ${{ github.event.inputs.limit || '80' }} \
+            --delay 2 --refresh-data
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add enrichment.json docs/data.json
+          if git diff --cached --quiet; then
+            echo "No enrichment changes."
+          else
+            git commit -m "chore: monthly enrichment refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi

@@ -5,10 +5,15 @@ const LS = {
   orsKey: "knmt.orsKey",
 };
 
+// Pre-filled OpenRouteService key (car travel-time) so you don't have to enter it.
+// Free tier, low-stakes; rotate at openrouteservice.org if ever needed.
+const DEFAULT_ORS_KEY =
+  "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjZlMjk3MDFiYTY5MTQ0MzQ5YzBmYTk0NTg5ZmY3N2RlIiwiaCI6Im11cm11cjY0In0=";
+
 const state = {
   all: [],
   origin: load(LS.loc),          // {lat,lng,label} | null
-  orsKey: localStorage.getItem(LS.orsKey) || "",
+  orsKey: localStorage.getItem(LS.orsKey) || DEFAULT_ORS_KEY,
   driveMin: {},                  // slug -> minutes (for current origin)
   days: new Set(),               // selected weekday codes
 };

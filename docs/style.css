@@ -74,6 +74,19 @@ main { max-width: 760px; margin: 0 auto; padding: 12px; display: grid; gap: 10px
 .card-head { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; }
 .title { font-size: 16px; margin: 0; }
 .sub { color: var(--muted); font-size: 13px; margin: 3px 0 6px; }
+.practice { font-size: 16px; margin: 0; color: var(--ink); }
+.loc-line { color: var(--muted); font-size: 13px; margin: 3px 0 5px; }
+.loc-line .multi { color: var(--accent); font-weight: 600; }
+.vac-title { font-size: 14.5px; font-weight: 600; margin-bottom: 6px; }
+
+.group { border-left: 3px solid var(--accent); }
+.gvacs { margin-top: 8px; }
+.vacrow { border-top: 1px solid var(--line); padding: 8px 0 6px; }
+.vacrow-head { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.vacrow .vac-title { font-size: 14px; font-weight: 600; margin: 0; }
+.vacrow .open { color: var(--accent); text-decoration: none; font-weight: 700; }
+.vacrow .toggle { background: var(--badge); color: var(--ink); border: none; border-radius: 8px; padding: 4px 10px; font-size: 13px; cursor: pointer; margin-top: 4px; }
+.vacrow .excerpt { font-size: 13px; margin: 4px 0; }
 .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 6px; }
 .tag { background: var(--accent-soft); color: var(--accent); font-size: 12px; padding: 2px 8px; border-radius: 999px; }
 .badge { background: var(--badge); color: var(--muted); font-size: 12px; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }

@@ -35,6 +35,12 @@ async function init() {
       `${data.count} vacatures · bijgewerkt ${fmtDate(data.generated_at)}`;
     fillSelect($("#f-area"), data.facets?.work_area, "Alle regio's");
     fillSelect($("#f-emp"), data.facets?.employment_type, "Alle dienstverbanden");
+    state.practiceCount = {};
+    for (const v of state.all) {
+      const k = pKey(v);
+      state.practiceCount[k] = (state.practiceCount[k] || 0) + 1;
+    }
+    populateSince();
   } catch (e) {
     $("#list").innerHTML = `<p class="empty">Kon data.json niet laden.<br>${e}</p>`;
     return;
@@ -51,6 +57,20 @@ function fillSelect(sel, values, allLabel) {
     values.map((v) => `<option>${esc(v)}</option>`).join("");
 }
 
+const MONTHS_NL = ["januari", "februari", "maart", "april", "mei", "juni", "juli",
+  "augustus", "september", "oktober", "november", "december"];
+
+// Build the "Geplaatst vanaf" dropdown from the actual posting months in the data.
+function populateSince() {
+  const months = [...new Set(state.all.map((v) => (v.date_posted || "").slice(0, 7))
+    .filter(Boolean))].sort().reverse();
+  const opts = months.map((ym) => {
+    const [y, m] = ym.split("-");
+    return `<option value="${ym}">${MONTHS_NL[+m - 1]} ${y}</option>`;
+  }).join("");
+  $("#f-since").innerHTML = `<option value="">alle datums</option>` + opts;
+}
+
 // ---------- filtering / sorting ----------
 function currentList() {
   const q = $("#search").value.trim().toLowerCase();
@@ -62,12 +82,14 @@ function currentList() {
   const includeNegot = $("#f-negot").checked;
   const onlyReviews = $("#f-reviews").checked;
   const onlyDirect = $("#f-direct").checked;
+  const since = $("#f-since").value;   // "YYYY-MM" cutoff, or ""
   let list = state.all.filter((v) => {
     if (area && !(v.work_areas || []).includes(area)) return false;
     if (emp && v.employment_type !== emp) return false;
     if (minH && !(v.hours_max >= minH)) return false;
     if (onlyReviews && !(v.enrichment && v.enrichment.rating)) return false;
     if (onlyDirect && v.start_sort !== "0000-00-00") return false;
+    if (since && (v.date_posted || "") < since) return false;
     if (state.days.size) {
       const vdays = v.days || [];
       const explicit = vdays.some((d) => state.days.has(d));
@@ -106,60 +128,111 @@ function bestMetric(v) {
   return v._dist;
 }
 
+function pKey(v) { return `${(v.practice || "?").toLowerCase()}|${(v.city || "").toLowerCase()}`; }
+
 function render() {
   const list = currentList();
   const main = $("#list");
   main.innerHTML = "";
-  if (!list.length) { main.innerHTML = `<p class="empty">Geen vacatures gevonden.</p>`; }
-  const tpl = $("#card-tpl");
-  for (const v of list) main.appendChild(card(tpl, v));
-  $("#count").textContent = `${list.length} van ${state.all.length} getoond`;
+  if (!list.length) {
+    main.innerHTML = `<p class="empty">Geen vacatures gevonden.</p>`;
+    $("#count").textContent = `0 van ${state.all.length} getoond`;
+    return;
+  }
+  if ($("#f-group").checked) {
+    const groups = new Map();
+    for (const v of list) {
+      const k = pKey(v);
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(v);
+    }
+    for (const items of groups.values()) main.appendChild(groupCard(items));
+    $("#count").textContent = `${groups.size} praktijken · ${list.length} vacatures`;
+  } else {
+    const tpl = $("#card-tpl");
+    for (const v of list) main.appendChild(card(tpl, v));
+    $("#count").textContent = `${list.length} van ${state.all.length} getoond`;
+  }
+}
+
+// Tags shown on a card/row. `withRating` adds the practice rating (skipped inside groups).
+function tagsHtml(v, withRating = true) {
+  const out = [v.work_area, v.employment_type, v.hours].filter(Boolean)
+    .map((t) => `<span class="tag">${esc(t)}</span>`);
+  if (v.start_label) {
+    const cls = v.start_sort === "0000-00-00" ? "tag start direct" : "tag start";
+    out.push(`<span class="${cls}">📅 ${esc(v.start_label)}${v.end_label ? "–" + esc(v.end_label) : ""}</span>`);
+  } else if (v.temporary) {
+    out.push(`<span class="tag start">tijdelijk</span>`);
+  }
+  if (v.days) out.push(...v.days.map((d) => `<span class="tag day">${DAY_LABEL[d] || d}</span>`));
+  if (v.days_negotiable) out.push(`<span class="tag negot">in overleg</span>`);
+  if (withRating && v.enrichment && v.enrichment.rating) {
+    const e = v.enrichment;
+    out.push(`<span class="tag rating">★ ${e.rating}${e.reviews ? " · " + e.reviews : ""}</span>`);
+  }
+  return out.join("");
+}
+
+// Fills the expandable details (offer/req/desc/contact), open link and toggle button.
+function wireDetails(el, v, label) {
+  fillBlock(el.querySelector(".offer"), "Wat wij bieden", v.what_we_offer);
+  fillBlock(el.querySelector(".req"), "Functie-eisen", v.requirements);
+  fillBlock(el.querySelector(".desc"), "Omschrijving", v.description);
+  const c = [v.contact_name,
+    v.contact_email && `<a href="mailto:${esc(v.contact_email)}">${esc(v.contact_email)}</a>`,
+    v.contact_phone && `<a href="tel:${esc(v.contact_phone)}">${esc(v.contact_phone)}</a>`].filter(Boolean);
+  el.querySelector(".contact").innerHTML = c.length ? "Contact: " + c.join(" · ") : "";
+  el.querySelector(".open").href = v.url;
+  const more = el.querySelector(".more"), btn = el.querySelector(".toggle");
+  btn.addEventListener("click", () => {
+    more.hidden = !more.hidden;
+    btn.textContent = more.hidden ? `${label} ▾` : `Minder ▴`;
+  });
 }
 
 function card(tpl, v) {
   const el = tpl.content.firstElementChild.cloneNode(true);
-  el.querySelector(".title").textContent = v.title || v.slug;
-  const subBits = [v.city, v.practice, v.date_posted ? `geplaatst ${v.date_posted}` : ""].filter(Boolean);
-  el.querySelector(".sub").textContent = subBits.join(" · ");
-
-  const tags = [v.work_area, v.employment_type, v.hours].filter(Boolean);
-  let tagHtml = tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("");
-  if (v.start_label) {
-    const cls = v.start_sort === "0000-00-00" ? "tag start direct" : "tag start";
-    const end = v.end_label ? `–${esc(v.end_label)}` : "";
-    tagHtml += `<span class="${cls}">📅 ${esc(v.start_label)}${end}</span>`;
-  }
-  if (v.temporary && !v.start_label) tagHtml += `<span class="tag start">tijdelijk</span>`;
-  if (v.days && v.days.length) {
-    tagHtml += v.days.map((d) => `<span class="tag day">${DAY_LABEL[d] || d}</span>`).join("");
-  }
-  if (v.days_negotiable) tagHtml += `<span class="tag negot">in overleg</span>`;
-  const enr = v.enrichment;
-  if (enr && enr.rating) {
-    tagHtml += `<span class="tag rating">★ ${enr.rating}${enr.reviews ? " · " + enr.reviews : ""}</span>`;
-  }
-  el.querySelector(".tags").innerHTML = tagHtml;
-
-  const distEl = el.querySelector(".dist");
-  distEl.textContent = metricLabel(v);
-
+  el.querySelector(".practice").textContent = v.practice || v.title || v.slug;
+  const n = state.practiceCount[pKey(v)] || 1;
+  const locBits = [v.city, v.date_posted ? `geplaatst ${v.date_posted}` : "",
+    n > 1 ? `${n} vacatures bij deze praktijk` : ""].filter(Boolean);
+  el.querySelector(".loc-line").innerHTML = locBits
+    .map((b, i) => i === 2 ? `<span class="multi">${esc(b)}</span>` : esc(b)).join(" · ");
+  el.querySelector(".vac-title").textContent = v.title || "";
+  el.querySelector(".tags").innerHTML = tagsHtml(v);
+  el.querySelector(".dist").textContent = metricLabel(v);
   el.querySelector(".excerpt").textContent = trim(v.description, 220);
-
   renderEnrichment(el.querySelector(".practice-info"), v.enrichment);
-  fillBlock(el.querySelector(".offer"), "Wat wij bieden", v.what_we_offer);
-  fillBlock(el.querySelector(".req"), "Functie-eisen", v.requirements);
-  fillBlock(el.querySelector(".desc"), "Omschrijving", v.description);
-  const c = [v.contact_name, v.contact_email && `<a href="mailto:${esc(v.contact_email)}">${esc(v.contact_email)}</a>`,
-             v.contact_phone && `<a href="tel:${esc(v.contact_phone)}">${esc(v.contact_phone)}</a>`].filter(Boolean);
-  el.querySelector(".contact").innerHTML = c.length ? "Contact: " + c.join(" · ") : "";
+  wireDetails(el, v, "Meer");
+  return el;
+}
 
-  el.querySelector(".open").href = v.url;
-  const more = el.querySelector(".more"), btn = el.querySelector(".toggle");
-  btn.addEventListener("click", () => {
-    const open = more.hidden;
-    more.hidden = !open;
-    btn.textContent = open ? "Minder ▴" : "Meer ▾";
-  });
+function groupCard(items) {
+  const v0 = items[0];
+  const el = $("#group-tpl").content.firstElementChild.cloneNode(true);
+  el.querySelector(".practice").textContent = v0.practice || "Onbekende praktijk";
+  el.querySelector(".loc-line").innerHTML =
+    `${esc(v0.city || "")} · <span class="multi">${items.length} vacature${items.length > 1 ? "s" : ""}</span>`;
+  el.querySelector(".dist").textContent = metricLabel(v0);
+  // Group-level chips: rating only (the practice's), once.
+  const e = v0.enrichment;
+  el.querySelector(".gtags").innerHTML = e && e.rating
+    ? `<span class="tag rating">★ ${e.rating}${e.reviews ? " · " + e.reviews : ""}</span>` : "";
+  renderEnrichment(el.querySelector(".practice-info"), v0.enrichment);
+  const vacs = el.querySelector(".gvacs");
+  const rt = $("#vacrow-tpl");
+  for (const v of items) vacs.appendChild(vacRow(rt, v));
+  return el;
+}
+
+function vacRow(tpl, v) {
+  const el = tpl.content.firstElementChild.cloneNode(true);
+  el.querySelector(".vac-title").textContent =
+    (v.date_posted ? `${v.date_posted} · ` : "") + (v.title || v.slug);
+  el.querySelector(".tags").innerHTML = tagsHtml(v, false);
+  el.querySelector(".excerpt").textContent = trim(v.description, 160);
+  wireDetails(el, v, "Details");
   return el;
 }
 
@@ -321,10 +394,8 @@ function bindUI() {
   let t;
   const deb = () => { clearTimeout(t); t = setTimeout(render, 150); };
   $("#search").addEventListener("input", deb);
-  for (const id of ["#f-area", "#f-emp", "#f-hours", "#sort"]) $(id).addEventListener("input", render);
-  $("#f-negot").addEventListener("change", render);
-  $("#f-reviews").addEventListener("change", render);
-  $("#f-direct").addEventListener("change", render);
+  for (const id of ["#f-area", "#f-emp", "#f-hours", "#sort", "#f-since"]) $(id).addEventListener("input", render);
+  for (const id of ["#f-negot", "#f-reviews", "#f-direct", "#f-group"]) $(id).addEventListener("change", render);
   buildDayToggles();
   $("#loc-set").addEventListener("click", () => {
     const v = $("#loc-input").value.trim(); if (v) setLocation(v);

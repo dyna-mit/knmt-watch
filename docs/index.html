@@ -27,8 +27,12 @@
       <option value="rating">Beste beoordeling</option>
       <option value="title">Titel A→Z</option>
     </select>
+    <label class="hours">Geplaatst vanaf
+      <select id="f-since"><option value="">alle datums</option></select>
+    </label>
     <label class="negot"><input type="checkbox" id="f-reviews" /> alleen met reviews</label>
     <label class="negot"><input type="checkbox" id="f-direct" /> per direct</label>
+    <label class="negot"><input type="checkbox" id="f-group" /> groepeer op praktijk</label>
   </div>
   <div class="dayfilter">
     <span class="lbl">Werkdagen:</span>
@@ -55,10 +59,11 @@
 <template id="card-tpl">
   <article class="card">
     <div class="card-head">
-      <h2 class="title"></h2>
+      <h2 class="practice"></h2>
       <span class="dist badge"></span>
     </div>
-    <div class="sub"></div>
+    <div class="loc-line"></div>
+    <div class="vac-title"></div>
     <div class="tags"></div>
     <div class="excerpt"></div>
     <div class="more" hidden>
@@ -73,6 +78,37 @@
       <a class="open" target="_blank" rel="noopener">Open op KNMT ↗</a>
     </div>
   </article>
+</template>
+
+<template id="group-tpl">
+  <section class="card group">
+    <div class="card-head">
+      <h2 class="practice"></h2>
+      <span class="dist badge"></span>
+    </div>
+    <div class="loc-line"></div>
+    <div class="tags gtags"></div>
+    <div class="block practice-info"></div>
+    <div class="gvacs"></div>
+  </section>
+</template>
+
+<template id="vacrow-tpl">
+  <div class="vacrow">
+    <div class="vacrow-head">
+      <span class="vac-title"></span>
+      <a class="open" target="_blank" rel="noopener">↗</a>
+    </div>
+    <div class="tags"></div>
+    <div class="excerpt"></div>
+    <div class="more" hidden>
+      <div class="block offer"></div>
+      <div class="block req"></div>
+      <div class="block desc"></div>
+      <div class="contact"></div>
+    </div>
+    <button class="toggle">Details ▾</button>
+  </div>
 </template>
 
 <script>

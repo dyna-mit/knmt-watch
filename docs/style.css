@@ -49,8 +49,12 @@ input, select, button { font: inherit; }
 .tag.rating { background: #fff7d6; color: #8a6d00; font-weight: 600; }
 .tag.start { background: #eef1ff; color: #3a46b5; }
 .tag.start.direct { background: #e3f6e8; color: #1f7a3a; font-weight: 600; }
-.tag.evening { background: #ede9fe; color: #5b3aa6; font-weight: 600; }
-.tag.weekend { background: #ffe7e0; color: #b5432a; font-weight: 600; }
+.hdr-flags { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 2px; }
+.hdr-flags:empty { display: none; }
+.flag { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 700;
+  padding: 4px 11px; border-radius: 8px; border: 1px solid transparent; }
+.flag.evening { background: #ede9fe; color: #4c2c9c; border-color: #c7b8f5; }
+.flag.weekend { background: #ffe3da; color: #a83418; border-color: #f3b6a4; }
 
 .practice-info .enr-rows { font-size: 14px; line-height: 1.7; }
 .practice-info .src { color: var(--muted); font-size: 12px; }

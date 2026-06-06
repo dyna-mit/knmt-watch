@@ -192,16 +192,15 @@ function tagsHtml(v, withRating = true) {
     const e = v.enrichment;
     out.push(`<span class="tag rating">★ ${e.rating}${e.reviews ? " · " + e.reviews : ""}</span>`);
   }
-  if (withRating) out.push(enrichFlags(v.enrichment));
   return out.join("");
 }
 
-// Opening-hours flags shown at practice level.
+// Prominent opening-hours flags shown at practice level (in the header row).
 function enrichFlags(e) {
   if (!e) return "";
   let h = "";
-  if (e.has_evening) h += `<span class="tag evening">🌙 avond${e.latest_close ? " tot " + e.latest_close : ""}</span>`;
-  if (e.has_weekend) h += `<span class="tag weekend">📅 weekend</span>`;
+  if (e.has_evening) h += `<span class="flag evening">🌙 avonduren${e.latest_close ? " (tot " + e.latest_close + ")" : ""}</span>`;
+  if (e.has_weekend) h += `<span class="flag weekend">📅 weekend open</span>`;
   return h;
 }
 
@@ -230,6 +229,7 @@ function card(tpl, v) {
     n > 1 ? `${n} vacatures bij deze praktijk` : ""].filter(Boolean);
   el.querySelector(".loc-line").innerHTML = locBits
     .map((b, i) => i === 2 ? `<span class="multi">${esc(b)}</span>` : esc(b)).join(" · ");
+  el.querySelector(".hdr-flags").innerHTML = enrichFlags(v.enrichment);
   el.querySelector(".vac-title").textContent = v.title || "";
   el.querySelector(".tags").innerHTML = tagsHtml(v);
   el.querySelector(".dist").textContent = metricLabel(v);
@@ -247,9 +247,9 @@ function groupCard(items) {
     `${esc(v0.city || "")} · <span class="multi">${items.length} vacature${items.length > 1 ? "s" : ""}</span>`;
   el.querySelector(".dist").textContent = metricLabel(v0);
   const e = v0.enrichment;
+  el.querySelector(".hdr-flags").innerHTML = enrichFlags(e);
   el.querySelector(".gtags").innerHTML =
-    (e && e.rating ? `<span class="tag rating">★ ${e.rating}${e.reviews ? " · " + e.reviews : ""}</span>` : "")
-    + enrichFlags(e);
+    e && e.rating ? `<span class="tag rating">★ ${e.rating}${e.reviews ? " · " + e.reviews : ""}</span>` : "";
   renderEnrichment(el.querySelector(".practice-info"), v0.enrichment);
 
   const tabsEl = el.querySelector(".gtabs");

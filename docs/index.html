@@ -23,8 +23,10 @@
     <select id="sort">
       <option value="date">Nieuwste eerst</option>
       <option value="distance">Dichtstbij eerst</option>
+      <option value="rating">Beste beoordeling</option>
       <option value="title">Titel A→Z</option>
     </select>
+    <label class="negot"><input type="checkbox" id="f-reviews" /> alleen met reviews</label>
   </div>
   <div class="dayfilter">
     <span class="lbl">Werkdagen:</span>
@@ -58,6 +60,7 @@
     <div class="tags"></div>
     <div class="excerpt"></div>
     <div class="more" hidden>
+      <div class="block practice-info"></div>
       <div class="block offer"></div>
       <div class="block req"></div>
       <div class="block desc"></div>

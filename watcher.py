@@ -167,7 +167,9 @@ def run(args) -> int:
     # Persist state + dashboard dataset.
     state["generated_at"] = today
     store.save_state(args.state, state)
-    write_dashboard(args.out, vacancies, cfg, today)
+    enrich_path = Path(args.state).with_name("enrichment.json")
+    enrichment = json.loads(enrich_path.read_text(encoding="utf-8")) if enrich_path.exists() else {}
+    write_dashboard(args.out, vacancies, cfg, today, enrichment=enrichment)
 
     # Notify.
     if first_run:
@@ -188,12 +190,20 @@ def run(args) -> int:
     return 0
 
 
-def write_dashboard(out_path: str, vacancies: dict, cfg: dict, generated_at: str) -> None:
+ENRICH_FIELDS = (
+    "website", "website_title", "description", "kvk", "kvk_url", "emails",
+    "rating", "reviews", "zorgkaart_url", "team", "big_checks",
+)
+
+
+def write_dashboard(out_path: str, vacancies: dict, cfg: dict, generated_at: str,
+                    enrichment: dict | None = None) -> None:
+    enrichment = enrichment or {}
     items = []
     for v in vacancies.values():
         if v.get("removed_on") or not passes_client_filters(v, cfg):
             continue
-        items.append({k: v.get(k) for k in (
+        item = {k: v.get(k) for k in (
             "slug", "url", "title", "city", "practice", "work_area", "work_areas",
             "vacancy_type",
             "hours", "hours_max", "employment_type", "date_posted", "changed_date",
@@ -201,7 +211,12 @@ def write_dashboard(out_path: str, vacancies: dict, cfg: dict, generated_at: str
             "description", "requirements", "what_we_offer",
             "contact_name", "contact_email", "contact_phone",
             "lat", "lng", "first_seen",
-        )})
+        )}
+        ekey = f"{(v.get('practice') or '').strip().lower()}|{(v.get('city') or '').strip().lower()}"
+        enr = enrichment.get(ekey)
+        if enr:
+            item["enrichment"] = {k: enr.get(k) for k in ENRICH_FIELDS if enr.get(k)}
+        items.append(item)
     items.sort(key=lambda x: (x.get("date_posted") or ""), reverse=True)
     # Facet option lists computed from the actual data so the UI is always in sync.
     def distinct(field: str) -> list[str]:

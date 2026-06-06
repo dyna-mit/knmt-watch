@@ -35,6 +35,19 @@ input, select, button { font: inherit; }
 .dayfilter .negot { display: flex; align-items: center; gap: 4px; }
 .tag.day { background: #eaf6ec; color: #2b7a3b; }
 .tag.negot { background: #fff4e0; color: #9a6a00; }
+.tag.rating { background: #fff7d6; color: #8a6d00; font-weight: 600; }
+
+.practice-info .enr-rows { font-size: 14px; line-height: 1.7; }
+.practice-info .src { color: var(--muted); font-size: 12px; }
+.big-list { list-style: none; padding: 0; margin: 6px 0 0; font-size: 13px; }
+.big-list li { padding: 3px 0; border-top: 1px solid var(--line); }
+.big-badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 999px; margin-right: 4px; }
+.big-ok { background: #e3f6e8; color: #1f7a3a; }
+.big-warn { background: #fff0d9; color: #9a6500; }
+.big-na { background: var(--badge); color: var(--muted); }
+.big-num { font-family: ui-monospace, monospace; color: var(--accent); }
+.big-note { color: var(--muted); }
+.big-warn-row { color: var(--muted); font-style: italic; }
 
 .loc { margin-top: 6px; }
 .loc #loc-input { flex: 1 1 180px; }

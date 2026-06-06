@@ -55,10 +55,12 @@ function currentList() {
   const sort = $("#sort").value;
 
   const includeNegot = $("#f-negot").checked;
+  const onlyReviews = $("#f-reviews").checked;
   let list = state.all.filter((v) => {
     if (area && !(v.work_areas || []).includes(area)) return false;
     if (emp && v.employment_type !== emp) return false;
     if (minH && !(v.hours_max >= minH)) return false;
+    if (onlyReviews && !(v.enrichment && v.enrichment.rating)) return false;
     if (state.days.size) {
       const vdays = v.days || [];
       const explicit = vdays.some((d) => state.days.has(d));
@@ -78,6 +80,11 @@ function currentList() {
     if (sort === "distance") {
       const da = bestMetric(a), db = bestMetric(b);
       return (da ?? 1e9) - (db ?? 1e9);
+    }
+    if (sort === "rating") {
+      const ra = (a.enrichment && a.enrichment.rating) || -1;
+      const rb = (b.enrichment && b.enrichment.rating) || -1;
+      return rb - ra;
     }
     return (b.date_posted || "").localeCompare(a.date_posted || "");
   });
@@ -111,6 +118,10 @@ function card(tpl, v) {
     tagHtml += v.days.map((d) => `<span class="tag day">${DAY_LABEL[d] || d}</span>`).join("");
   }
   if (v.days_negotiable) tagHtml += `<span class="tag negot">in overleg</span>`;
+  const enr = v.enrichment;
+  if (enr && enr.rating) {
+    tagHtml += `<span class="tag rating">★ ${enr.rating}${enr.reviews ? " · " + enr.reviews : ""}</span>`;
+  }
   el.querySelector(".tags").innerHTML = tagHtml;
 
   const distEl = el.querySelector(".dist");
@@ -118,6 +129,7 @@ function card(tpl, v) {
 
   el.querySelector(".excerpt").textContent = trim(v.description, 220);
 
+  renderEnrichment(el.querySelector(".practice-info"), v.enrichment);
   fillBlock(el.querySelector(".offer"), "Wat wij bieden", v.what_we_offer);
   fillBlock(el.querySelector(".req"), "Functie-eisen", v.requirements);
   fillBlock(el.querySelector(".desc"), "Omschrijving", v.description);
@@ -138,6 +150,49 @@ function card(tpl, v) {
 function fillBlock(node, label, text) {
   if (!text) { node.hidden = true; return; }
   node.innerHTML = `<h3>${label}</h3><div>${esc(text)}</div>`;
+}
+
+function renderEnrichment(node, enr) {
+  if (!enr) { node.hidden = true; return; }
+  const rows = [];
+  if (enr.website) {
+    const host = enr.website.replace(/^https?:\/\/(www\.)?/, "");
+    rows.push(`🌐 <a href="${esc(enr.website)}" target="_blank" rel="noopener">${esc(host)}</a>`);
+  }
+  if (enr.rating) {
+    const link = enr.zorgkaart_url
+      ? `<a href="${esc(enr.zorgkaart_url)}" target="_blank" rel="noopener">${enr.reviews || "?"} reviews</a>`
+      : `${enr.reviews || "?"} reviews`;
+    rows.push(`⭐ <b>${enr.rating}/10</b> · ${link} <span class="src">(Zorgkaart)</span>`);
+  }
+  if (enr.kvk) {
+    rows.push(`🏢 KvK ${esc(enr.kvk)}${enr.kvk_url ? ` · <a href="${esc(enr.kvk_url)}" target="_blank" rel="noopener">kvk.nl</a>` : ""}`);
+  }
+  if (enr.emails && enr.emails.length) {
+    rows.push(`✉️ ${enr.emails.slice(0, 2).map((e) => `<a href="mailto:${esc(e)}">${esc(e)}</a>`).join(", ")}`);
+  }
+
+  let bigHtml = "";
+  const checks = enr.big_checks || [];
+  if (checks.length) {
+    // Only assert confirmed registrations; everything else is summarised, never accused.
+    const registered = checks.filter((c) => c.status === "registered");
+    const others = checks.filter((c) => c.status !== "registered" && c.status !== "no_title_check");
+    const lis = registered.map((c) =>
+      `<li><span class="big-badge big-ok">✓ BIG</span> ${esc(c.name)} ` +
+      `<span class="big-num">${esc(c.big_number || "")}</span> ` +
+      `<span class="big-note">— ${esc(c.expected_group || "")}</span></li>`).join("");
+    let tail = "";
+    if (others.length) {
+      tail = `<li class="big-warn-row">${others.length} ander${others.length > 1 ? "e namen" : " naam"} ` +
+        `op de site niet automatisch te bevestigen — ` +
+        `<a href="https://www.bigregister.nl/zoek-zorgverlener" target="_blank" rel="noopener">check in BIG-register</a></li>`;
+    }
+    bigHtml = `<h3>BIG-register (best-effort)</h3><ul class="big-list">${lis}${tail}</ul>`;
+  }
+
+  node.hidden = false;
+  node.innerHTML = `<h3>Over de praktijk</h3><div class="enr-rows">${rows.join("<br>")}</div>` + bigHtml;
 }
 
 function metricLabel(v) {
@@ -242,6 +297,7 @@ function bindUI() {
   $("#search").addEventListener("input", deb);
   for (const id of ["#f-area", "#f-emp", "#f-hours", "#sort"]) $(id).addEventListener("input", render);
   $("#f-negot").addEventListener("change", render);
+  $("#f-reviews").addEventListener("change", render);
   buildDayToggles();
   $("#loc-set").addEventListener("click", () => {
     const v = $("#loc-input").value.trim(); if (v) setLocation(v);

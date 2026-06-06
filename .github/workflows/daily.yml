@@ -37,11 +37,16 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python watcher.py ${{ github.event.inputs.ping == 'true' && '--ping' || '' }}
 
+      - name: Enrich new practices (best-effort)
+        if: github.event.inputs.ping != 'true'
+        continue-on-error: true   # web search can be flaky from CI; never fail the run
+        run: python enrich_runner.py --limit 25 --delay 2 --refresh-data
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state.json docs/data.json
+          git add state.json docs/data.json enrichment.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

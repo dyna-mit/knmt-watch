@@ -307,6 +307,40 @@ def big_check_people(people: list[dict]) -> list[dict]:
     return out
 
 
+def add_photos(record: dict) -> bool:
+    """Backfill practice + team photos for an already-enriched record using its known
+    website (no web search). Returns True if anything was added. Preserves other fields.
+    """
+    url = record.get("website")
+    if not url:
+        return False
+    home = _fetch(url)
+    if not home:
+        return False
+    soup = BeautifulSoup(home, "lxml")
+    changed = False
+    if not record.get("practice_photo"):
+        og = soup.find("meta", attrs={"property": "og:image"}) or soup.find("meta", attrs={"name": "og:image"})
+        if og and og.get("content"):
+            record["practice_photo"] = urljoin(url, og["content"])
+            changed = True
+    team_url = find_team_page(url, home)
+    team_html = _fetch(team_url) if team_url else home
+    fresh = extract_people(team_html, base_url=team_url or url)
+    if fresh:
+        by_name = {p["name"]: p for p in fresh}
+        # Add photos to existing team entries; add any newly found people.
+        for p in record.get("team", []):
+            fp = by_name.pop(p["name"], None)
+            if fp and fp.get("photo") and not p.get("photo"):
+                p["photo"] = fp["photo"]
+                changed = True
+        for leftover in by_name.values():
+            record.setdefault("team", []).append(leftover)
+            changed = True
+    return changed
+
+
 # ---------------- orchestrator ----------------
 def enrich_practice(practice: str, city: str, contact_name: str = "") -> dict:
     """Full best-effort enrichment for one practice. Safe to call offline-tolerant."""

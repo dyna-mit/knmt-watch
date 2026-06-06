@@ -1,5 +1,32 @@
 # Practice Enrichment — build review (2026-06-06)
 
+## Update — added this session
+- **Start/end dates**: parsed from posting text (`knmt/dates.py`) — "per direct", explicit
+  dates, "in overleg", plus end dates for locum/maternity covers. New **sort "Startdatum
+  (eerst beschikbaar)"**, a **"per direct"** filter, and 📅 date chips on cards (green = per
+  direct). Best-effort: 19 per-direct, 23 dated, 80 "in overleg", 28 temporary in ZH today.
+- **Photos**: practice photo (site og:image) + **team member photos** (hotlinked URLs, not
+  downloaded) shown in a team grid in "Over de praktijk". Best-effort — present when the site
+  exposes them (e.g. tandartskapelle shows each dentist's photo; some sites none).
+- **Travel time key**: your OpenRouteService key is now baked into the dashboard, so car
+  travel time works the moment you set your location (no key entry). ⚠️ It's visible in the
+  public repo — low-stakes free key; rotate at openrouteservice.org if abused.
+- **Recurring jobs**: enrichment now runs in two GitHub jobs — incremental (new practices)
+  after each twice-weekly scrape, and a **monthly full refresh** (`.github/workflows/enrich.yml`,
+  1st of month, re-enriches records >25 days old). Caveat below.
+- **Photo backfill**: `enrich_runner.py --backfill-photos` adds photos to already-enriched
+  practices using their known website (no search → no rate-limit risk).
+
+### How enrichment runs (your question)
+It's a plain script (`enrich_runner.py`), not tied to Claude Code. The heavy first pass I run
+locally because **DuckDuckGo + the BIG API rate-limit GitHub's datacenter IPs** — so the cloud
+jobs are *best-effort* top-ups. If cloud runs come back sparse, run locally any time:
+`python enrich_runner.py --max-age-days 25 --refresh-data`. (To make the cloud fully reliable
+we'd swap DDG for a keyed search API like Brave — free tier, works from any IP. Say the word.)
+
+---
+
+
 You asked me to enrich each scraped practice with web info — ratings/reviews, KvK,
 financials, website + on-site info, and BIG-register checks of the people listed. Here's
 what I built overnight, honestly scoped: what works well, what's best-effort, and what

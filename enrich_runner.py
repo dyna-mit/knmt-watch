@@ -64,11 +64,27 @@ def main() -> int:
     ap.add_argument("--delay", type=float, default=3.0, help="seconds between practices")
     ap.add_argument("--refresh-data", action="store_true",
                     help="rewrite docs/data.json with enrichment merged after the run")
+    ap.add_argument("--backfill-photos", action="store_true",
+                    help="add photos to cached records via their known website (no search)")
     args = ap.parse_args()
 
     state = load_json(Path(args.state), {"vacancies": {}})
     cache = load_json(Path(args.out), {})
     practices = distinct_practices(state.get("vacancies", {}))
+
+    # Photo backfill: add practice/team photos to already-enriched records that lack them,
+    # reusing each record's known website (no web search -> no rate-limit risk).
+    if args.backfill_photos:
+        targets = [k for k, r in cache.items() if r.get("website") and not r.get("practice_photo")]
+        print(f"[photos] backfilling {len(targets)} cached practices")
+        for i, k in enumerate(targets, 1):
+            try:
+                if enrich.add_photos(cache[k]):
+                    print(f"  [{i}/{len(targets)}] +photos {cache[k].get('practice','')[:40]}")
+            except Exception as exc:  # noqa: BLE001
+                print(f"  [{i}/{len(targets)}] photo FAIL {k}: {exc}")
+            Path(args.out).write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+            time.sleep(args.delay)
 
     def is_stale(rec: dict) -> bool:
         if args.max_age_days is None:

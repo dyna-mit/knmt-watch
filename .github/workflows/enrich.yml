@@ -17,7 +17,7 @@ on:
       limit:
         description: "Max practices this run"
         type: string
-        default: "80"
+        default: "250"
 
 permissions:
   contents: write
@@ -43,7 +43,7 @@ jobs:
         run: |
           python enrich_runner.py \
             --max-age-days ${{ github.event.inputs.max_age_days || '25' }} \
-            --limit ${{ github.event.inputs.limit || '80' }} \
+            --limit ${{ github.event.inputs.limit || '250' }} \
             --delay 2 --refresh-data
 
       - name: Commit refreshed data

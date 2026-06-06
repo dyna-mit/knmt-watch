@@ -20,6 +20,7 @@ from pathlib import Path
 
 import yaml
 
+from knmt import dates as dates_mod
 from knmt import days as days_mod
 from knmt import detail as detail_mod
 from knmt import geocode, notify, scrape, store
@@ -38,10 +39,15 @@ def now_iso() -> str:
 
 
 def annotate_days(rec: dict) -> None:
-    """Derive required workdays from the posting text (no extra request needed)."""
+    """Derive workdays + start/end period from the posting text (no extra request)."""
     text = " ".join(str(rec.get(k) or "") for k in
                     ("title", "description", "requirements", "what_we_offer"))
     rec["days"], rec["days_negotiable"] = days_mod.extract_workdays(text)
+    period = dates_mod.extract_period(text)
+    rec["start_label"] = period["start_label"]
+    rec["start_sort"] = period["start_sort"]
+    rec["end_label"] = period["end_label"]
+    rec["temporary"] = period["temporary"]
 
 
 def content_hash(record: dict) -> str:
@@ -191,7 +197,7 @@ def run(args) -> int:
 
 
 ENRICH_FIELDS = (
-    "website", "website_title", "description", "kvk", "kvk_url", "emails",
+    "website", "website_title", "description", "kvk", "kvk_url", "emails", "practice_photo",
     "rating", "reviews", "zorgkaart_url", "team", "big_checks",
 )
 
@@ -208,6 +214,7 @@ def write_dashboard(out_path: str, vacancies: dict, cfg: dict, generated_at: str
             "vacancy_type",
             "hours", "hours_max", "employment_type", "date_posted", "changed_date",
             "days", "days_negotiable",
+            "start_label", "start_sort", "end_label", "temporary",
             "description", "requirements", "what_we_offer",
             "contact_name", "contact_email", "contact_phone",
             "lat", "lng", "first_seen",

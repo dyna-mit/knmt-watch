@@ -1962,5 +1962,896 @@
    }
   ],
   "enriched_at": "2026-06-06T09:28:10Z"
+ },
+ "mondzorg nieuwerkerk|nieuwerkerk aan den ijssel": {
+  "practice": "Mondzorg Nieuwerkerk",
+  "city": "Nieuwerkerk aan den IJssel",
+  "website": "https://mondzorgnieuwerkerk.nl",
+  "website_title": "Behandelingen – Mondzorg Nieuwerkerk",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "balie@mondzorgnieuwerkerk.nl",
+   "info@vanvliettherapie.nl"
+  ],
+  "rating": 10,
+  "reviews": 1,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-mondzorg-nieuwerkerk-nieuwerkerk-aan-den-ijssel-3041119",
+  "team": [
+   {
+    "name": "Suzan Tchornobay",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Aren Polderman",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Byron Taylor",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Taylor Made Dentistry",
+    "title": "tandarts",
+    "big_number": "39924285602"
+   },
+   {
+    "name": "Marvin Jeroense",
+    "title": "tandarts",
+    "big_number": "39924285602"
+   },
+   {
+    "name": "Jeroense Tandheelkunde",
+    "title": "tandarts",
+    "big_number": "89928085002"
+   },
+   {
+    "name": "Ilse Tange",
+    "title": "mondhygiënist",
+    "big_number": null
+   },
+   {
+    "name": "José van der Dussen",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Suzan Tchornobay",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Aren Polderman",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Byron Taylor",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "B.W. Taylor",
+    "big_number": "39924285602",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Taylor Made Dentistry",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig",
+    "site_big_number": "39924285602"
+   },
+   {
+    "name": "Marvin Jeroense",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig",
+    "site_big_number": "39924285602"
+   },
+   {
+    "name": "Jeroense Tandheelkunde",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig",
+    "site_big_number": "89928085002"
+   },
+   {
+    "name": "Ilse Tange",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "José van der Dussen",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:30:27Z"
+ },
+ "tandartsenpraktijk tol|rotterdam": {
+  "practice": "Tandartsenpraktijk Tol",
+  "city": "Rotterdam",
+  "website": "https://www.tandartsenpraktijktol.nl",
+  "website_title": "Tandartsenpraktijk Tol – Rotterdam",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartsenpraktijktol.nl"
+  ],
+  "rating": 9.2,
+  "reviews": 112,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-tol-rotterdam-209032",
+  "team": [
+   {
+    "name": "Informatiefolders Angst Preventie",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Vacature Zoeken Tel",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Rotterdam Tel",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Informatiefolders Angst Preventie",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Vacature Zoeken Tel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Rotterdam Tel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:32:06Z"
+ },
+ "tandartspraktijk de wilde veenen|moerkapelle": {
+  "practice": "Tandartspraktijk De Wilde Veenen",
+  "city": "Moerkapelle",
+  "website": "https://www.tellows.nl",
+  "website_title": "Tandarts Tandartspraktijk de Wilde Veenen uit Zoetermeer met 0795931436 | Score telefoonnummer: 3 - +31795931436 tellows.nl",
+  "description": "Wie belt met 0795931436? Commentaren en meer details bij het nummer 079-5931436 bij de grote Community met alles over telefoonnummers.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-t-de-wilde-amsterdam-178774",
+  "team": [
+   {
+    "name": "Wilde Veenen",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Storage Zoetermeer Bleiswijkseweg",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Borsboom Onderhoud",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Mondzorgcentrum Westwijk",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Wilde Veenen",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Storage Zoetermeer Bleiswijkseweg",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Borsboom Onderhoud",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Mondzorgcentrum Westwijk",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:34:14Z"
+ },
+ "bergaz holding bv|middelharnis": {
+  "practice": "Bergaz Holding BV",
+  "city": "Middelharnis",
+  "website": "https://www.mondzorgdogterom.nl",
+  "website_title": "Mondzorg Dogterom | Specialistische tandartsenpraktijk - Mondzorg Dogterom",
+  "description": "Mondzorg Dogterom is een specialist op het gebied van tandheelkundige zorg. Bij ons vindt u diverse specialisten onder 1 dak. Ook op zaterdag en in de avonduren kunt u in een van onze 6 behandelkamers of in onze eigen operatiekamer terecht. Bekijk hier meer informatie.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@mondzorgdogterom.nl"
+  ],
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/psychologiepraktijk-en-psychotherapiepraktijk-devotas-locatie-middelharnis-middelharnis-3039624",
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-06-06T09:34:20Z"
+ },
+ "tandartspraktijk woudhoek|schiedam": {
+  "practice": "Tandartspraktijk Woudhoek",
+  "city": "Schiedam",
+  "website": "https://www.tandartspraktijkwoudhoek.nl",
+  "website_title": "Tandartspraktijk Woudhoek | Uw tandarts in Schiedam",
+  "description": "Welkom bij Tandartspraktijk Woudhoek in Schiedam. Complete tandzorg van controles tot implantaten. Nieuwe patiënten welkom. Bel 010-4713992.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartspraktijkwoudhoek.nl"
+  ],
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartsenpraktijk-woudhoek-schiedam-3054089/specialisten",
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-06-06T09:34:25Z"
+ },
+ "tandheelkundig centrum pijnacker|pijnacker": {
+  "practice": "Tandheelkundig centrum Pijnacker",
+  "city": "Pijnacker",
+  "website": "https://tandartspijnacker.nl",
+  "website_title": "Tandheelkundig Centrum Pijnacker | Tandarts Pijnacker",
+  "description": "Op zoek naar een tandarts in Pijnacker? Tandheelkundig Centrum Pijnacker is de familiepraktijk: Angst tandarts, Kindertandarts, Orthodontist",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartspijnacker.nl"
+  ],
+  "rating": 8.9,
+  "reviews": 70,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandheelkundig-centrum-pijnacker-pijnacker-181905",
+  "team": [
+   {
+    "name": "Tandheelkundig Centrum Pijnacker",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Farhat Sharifi Mondhygiëniste",
+    "title": "tandarts",
+    "big_number": "29936482502"
+   },
+   {
+    "name": "Amal Bouisaghouane Mondhygiëniste",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Ramona Preventie",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Tandheelkundig Centrum Pijnacker",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Farhat Sharifi Mondhygiëniste",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig",
+    "site_big_number": "29936482502"
+   },
+   {
+    "name": "Amal Bouisaghouane Mondhygiëniste",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Ramona Preventie",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:36:34Z"
+ },
+ "tandheelkundig centrum wilhelminapier|rotterdam": {
+  "practice": "Tandheelkundig Centrum Wilhelminapier",
+  "city": "Rotterdam",
+  "website": "https://tand-implant.nl",
+  "website_title": "Home < Tandheelkundig Centrum Wilhelminapier Rotterdam",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandimplant.nl"
+  ],
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "team": [
+   {
+    "name": "Zoeken Verwijsformulier",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Zoeken Verwijsformulier",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:37:09Z"
+ },
+ "tandartspraktijk drechtsteden|regio drechtsteden": {
+  "practice": "Tandartspraktijk Drechtsteden",
+  "city": "Regio Drechtsteden",
+  "website": "https://reiftandartsen.nl",
+  "website_title": "Tandarts in Dordrecht | Reif Tandartsen | Mondzorg voor het hele gezin",
+  "description": "Op zoek naar een tandarts in Dordrecht? Reif Tandartsen biedt persoonlijke tandzorg, mondhygiëne en preventieve behandelingen voor het hele gezin.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@reiftandartsen.nl"
+  ],
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "team": [
+   {
+    "name": "Studio Viskom",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Studio Viskom",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:37:44Z"
+ },
+ "mondzorg delfgauw|delfgauw": {
+  "practice": "Mondzorg Delfgauw",
+  "city": "Delfgauw",
+  "website": "https://mondzorgdelfgauw.nl",
+  "website_title": "Jouw tandarts in Delfgauw - Geen wachtlijst - Voor het hele gezin",
+  "description": "Welkom bij Mondzorg Delfgauw: persoonlijke tandheelkundige zorg voor het hele gezin. Moderne praktijk, vaste behandelaar en geen wachtlijst.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@mondzorgdelfgauw.nl"
+  ],
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "team": [
+   {
+    "name": "Delfgauw Schrijf",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Delfgauw Schrijf",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:38:21Z"
+ },
+ "tandartspraktijk oskam|gouda": {
+  "practice": "Tandartspraktijk Oskam",
+  "city": "Gouda",
+  "website": "https://www.tandartspraktijkoskam.nl",
+  "website_title": "Tandartspraktijk Oskam – Gouda",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartspraktijkoskam.nl"
+  ],
+  "rating": 7.1,
+  "reviews": 2,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-oskam-gouda-3042659/waardering",
+  "team": [
+   {
+    "name": "Eigenaresse Beschikbare",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Ma Di Wo",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Els Oskam Berthe",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Ma Di Do",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Vr In",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Berthe Jager",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Berthe Jager Renske",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Ma Wo Vr",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Eigenaresse Beschikbare",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Ma Di Wo",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Els Oskam Berthe",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Ma Di Do",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Vr In",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Berthe Jager",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Berthe Jager Renske",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Ma Wo Vr",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:42:02Z"
+ },
+ "aesthetic dental center|'s-gravenhage": {
+  "practice": "Aesthetic Dental Center",
+  "city": "'s-Gravenhage",
+  "website": "https://www.dentalby.com",
+  "website_title": "Pediatric Dentist in The Hague - Gemeente 's-Gravenhage - South Holland - Netherlands by Category",
+  "description": "Use DentalBy to appear for essentially the most appropriate Pediatric Dentist in The Hague even though you keep in The Hague. Our wide clinics catalog is getting bigger just about daily thanks to people like you.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "team": [
+   {
+    "name": "Endodontist Cosmetic Dentist",
+    "title": "orthodontist",
+    "big_number": null
+   },
+   {
+    "name": "Emergency Dentist Teeth",
+    "title": "orthodontist",
+    "big_number": null
+   },
+   {
+    "name": "The Hague",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Endodontist Cosmetic Dentist",
+    "title": "orthodontist",
+    "expected_group": "orthodontist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "no_title_check",
+    "note": "titel vereist geen BIG-registratie"
+   },
+   {
+    "name": "Emergency Dentist Teeth",
+    "title": "orthodontist",
+    "expected_group": "orthodontist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "no_title_check",
+    "note": "titel vereist geen BIG-registratie"
+   },
+   {
+    "name": "The Hague",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:42:38Z"
+ },
+ "tandheelkundig centrum anna tump|den haag": {
+  "practice": "Tandheelkundig Centrum Anna Tump",
+  "city": "Den Haag",
+  "website": "https://docdental.nl",
+  "website_title": "Tandheelkundig Centrum Anna Tump in Den Haag • Lees Beoordelingen en Prijzen | DocDental",
+  "description": "Lees beoordelingen, prijzen en contactgegevens van Tandheelkundig Centrum Anna Tump in Den Haag. Lees de ervaring van andere patiënten.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "rating": 8.6,
+  "reviews": 14,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandheelkundig-centrum-frederikstraat-den-haag-den-haag-181112/waardering",
+  "team": [
+   {
+    "name": "Inloggen Registreer",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Amsterdam Rotterdam Utrecht",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Den Haag Eindhoven",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Rotterdam Utrecht Eindhoven",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Dentale Clinics",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Zoeker van Tandheelkundige Klinieken",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Tandheelkundige Klinieken",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Inloggen Registreer",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Amsterdam Rotterdam Utrecht",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Den Haag Eindhoven",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Rotterdam Utrecht Eindhoven",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dentale Clinics",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Zoeker van Tandheelkundige Klinieken",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Tandheelkundige Klinieken",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:46:16Z"
+ },
+ "tandartsenpraktijk zevenhoven|zevenhoven / ter aar": {
+  "practice": "Tandartsenpraktijk Zevenhoven",
+  "city": "Zevenhoven / Ter Aar",
+  "website": "https://tandartszevenhoven.nl",
+  "website_title": "Tandartsenpraktijk Zevenhoven",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "rekening@infomedics.nl"
+  ],
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-zevenhoven-zevenhoven-180025",
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-06-06T09:46:22Z"
+ },
+ "uw tandarts voorburg|voorburg": {
+  "practice": "Uw Tandarts Voorburg",
+  "city": "Voorburg",
+  "website": "https://uwtandarts.nl",
+  "website_title": "Tandarts Voorburg: sinds 1996 dé tandartspraktijk in Voorburg",
+  "description": "Al sinds 1996 uw vertrouwde tandarts in Voorburg voor alle tandheelkundige behandelingen. ✓ Online inschrijven ✓ Aangesloten bij KNMT.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@uwtandarts.nl"
+  ],
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "team": [
+   {
+    "name": "Diyar Kamal",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Voorburg Kindertandarts Voorburg",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Diyar Kamal Tandarts-implantoloog",
+    "title": "tandarts",
+    "big_number": "19930011802"
+   },
+   {
+    "name": "Jade Visser",
+    "title": "tandarts",
+    "big_number": "19022806502"
+   },
+   {
+    "name": "Kenniscentrum Contactgegevens Uw",
+    "title": "tandarts",
+    "big_number": null
+   },
+   {
+    "name": "Voorburg E-mailadres",
+    "title": "tandarts",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Diyar Kamal",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Voorburg Kindertandarts Voorburg",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Diyar Kamal Tandarts-implantoloog",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig",
+    "site_big_number": "19930011802"
+   },
+   {
+    "name": "Jade Visser",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig",
+    "site_big_number": "19022806502"
+   },
+   {
+    "name": "Kenniscentrum Contactgegevens Uw",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Voorburg E-mailadres",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-06T09:49:29Z"
+ },
+ "armin khan|bleiswijk": {
+  "practice": "Armin Khan",
+  "city": "BLEISWIJK",
+  "website": "https://www.spoj.com",
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-06-06T09:49:34Z"
  }
 }

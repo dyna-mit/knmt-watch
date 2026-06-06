@@ -36,6 +36,8 @@ input, select, button { font: inherit; }
 .tag.day { background: #eaf6ec; color: #2b7a3b; }
 .tag.negot { background: #fff4e0; color: #9a6a00; }
 .tag.rating { background: #fff7d6; color: #8a6d00; font-weight: 600; }
+.tag.start { background: #eef1ff; color: #3a46b5; }
+.tag.start.direct { background: #e3f6e8; color: #1f7a3a; font-weight: 600; }
 
 .practice-info .enr-rows { font-size: 14px; line-height: 1.7; }
 .practice-info .src { color: var(--muted); font-size: 12px; }
@@ -47,7 +49,15 @@ input, select, button { font: inherit; }
 .big-na { background: var(--badge); color: var(--muted); }
 .big-num { font-family: ui-monospace, monospace; color: var(--accent); }
 .big-note { color: var(--muted); }
-.big-warn-row { color: var(--muted); font-style: italic; }
+.big-warn-row { color: var(--muted); font-style: italic; font-size: 12px; margin-top: 6px; }
+.practice-photo { width: 100%; max-height: 180px; object-fit: cover; border-radius: 10px; margin: 4px 0 8px; }
+.team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin-top: 6px; }
+.person { display: flex; gap: 8px; align-items: center; }
+.pphoto { width: 46px; height: 46px; border-radius: 50%; object-fit: cover; flex: 0 0 46px; background: var(--badge); }
+.pphoto.ph { display: flex; align-items: center; justify-content: center; font-size: 22px; }
+.pmeta { min-width: 0; }
+.pname { font-size: 13px; font-weight: 600; line-height: 1.2; }
+.ptitle { font-size: 12px; color: var(--muted); text-transform: capitalize; }
 
 .loc { margin-top: 6px; }
 .loc #loc-input { flex: 1 1 180px; }

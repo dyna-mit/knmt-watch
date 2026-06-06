@@ -61,11 +61,13 @@ function currentList() {
 
   const includeNegot = $("#f-negot").checked;
   const onlyReviews = $("#f-reviews").checked;
+  const onlyDirect = $("#f-direct").checked;
   let list = state.all.filter((v) => {
     if (area && !(v.work_areas || []).includes(area)) return false;
     if (emp && v.employment_type !== emp) return false;
     if (minH && !(v.hours_max >= minH)) return false;
     if (onlyReviews && !(v.enrichment && v.enrichment.rating)) return false;
+    if (onlyDirect && v.start_sort !== "0000-00-00") return false;
     if (state.days.size) {
       const vdays = v.days || [];
       const explicit = vdays.some((d) => state.days.has(d));
@@ -90,6 +92,9 @@ function currentList() {
       const ra = (a.enrichment && a.enrichment.rating) || -1;
       const rb = (b.enrichment && b.enrichment.rating) || -1;
       return rb - ra;
+    }
+    if (sort === "start") {
+      return (a.start_sort || "9999-99-99").localeCompare(b.start_sort || "9999-99-99");
     }
     return (b.date_posted || "").localeCompare(a.date_posted || "");
   });
@@ -119,6 +124,12 @@ function card(tpl, v) {
 
   const tags = [v.work_area, v.employment_type, v.hours].filter(Boolean);
   let tagHtml = tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("");
+  if (v.start_label) {
+    const cls = v.start_sort === "0000-00-00" ? "tag start direct" : "tag start";
+    const end = v.end_label ? `–${esc(v.end_label)}` : "";
+    tagHtml += `<span class="${cls}">📅 ${esc(v.start_label)}${end}</span>`;
+  }
+  if (v.temporary && !v.start_label) tagHtml += `<span class="tag start">tijdelijk</span>`;
   if (v.days && v.days.length) {
     tagHtml += v.days.map((d) => `<span class="tag day">${DAY_LABEL[d] || d}</span>`).join("");
   }
@@ -177,27 +188,37 @@ function renderEnrichment(node, enr) {
     rows.push(`✉️ ${enr.emails.slice(0, 2).map((e) => `<a href="mailto:${esc(e)}">${esc(e)}</a>`).join(", ")}`);
   }
 
-  let bigHtml = "";
-  const checks = enr.big_checks || [];
-  if (checks.length) {
-    // Only assert confirmed registrations; everything else is summarised, never accused.
-    const registered = checks.filter((c) => c.status === "registered");
-    const others = checks.filter((c) => c.status !== "registered" && c.status !== "no_title_check");
-    const lis = registered.map((c) =>
-      `<li><span class="big-badge big-ok">✓ BIG</span> ${esc(c.name)} ` +
-      `<span class="big-num">${esc(c.big_number || "")}</span> ` +
-      `<span class="big-note">— ${esc(c.expected_group || "")}</span></li>`).join("");
-    let tail = "";
-    if (others.length) {
-      tail = `<li class="big-warn-row">${others.length} ander${others.length > 1 ? "e namen" : " naam"} ` +
-        `op de site niet automatisch te bevestigen — ` +
-        `<a href="https://www.bigregister.nl/zoek-zorgverlener" target="_blank" rel="noopener">check in BIG-register</a></li>`;
-    }
-    bigHtml = `<h3>BIG-register (best-effort)</h3><ul class="big-list">${lis}${tail}</ul>`;
+  // Team grid (photos + names + confirmed BIG). Names are best-effort from the site.
+  let teamHtml = "";
+  const team = enr.team || [];
+  if (team.length) {
+    const bigByName = {};
+    (enr.big_checks || []).forEach((c) => { bigByName[c.name] = c; });
+    const cards = team.map((p) => {
+      const v = bigByName[p.name];
+      const reg = v && v.status === "registered";
+      const photo = p.photo
+        ? `<img class="pphoto" src="${esc(p.photo)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'pphoto ph',textContent:'👤'}))">`
+        : `<span class="pphoto ph">👤</span>`;
+      const big = reg
+        ? `<span class="big-badge big-ok" title="${esc(v.big_number || "")}">✓ BIG</span>` : "";
+      return `<div class="person">${photo}<div class="pmeta">` +
+        `<div class="pname">${esc(p.name)} ${big}</div>` +
+        `<div class="ptitle">${esc(p.title || "")}</div></div></div>`;
+    }).join("");
+    teamHtml = `<h3>Team <span class="src">(namen best-effort van de site)</span></h3>` +
+      `<div class="team-grid">${cards}</div>` +
+      `<div class="big-warn-row">✓ BIG = automatisch bevestigd in het BIG-register. ` +
+      `Geen vinkje ≠ niet geregistreerd — ` +
+      `<a href="https://www.bigregister.nl/zoek-zorgverlener" target="_blank" rel="noopener">zelf checken</a>.</div>`;
   }
 
+  const photoHtml = enr.practice_photo
+    ? `<img class="practice-photo" src="${esc(enr.practice_photo)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
+    : "";
   node.hidden = false;
-  node.innerHTML = `<h3>Over de praktijk</h3><div class="enr-rows">${rows.join("<br>")}</div>` + bigHtml;
+  node.innerHTML = `<h3>Over de praktijk</h3>${photoHtml}` +
+    `<div class="enr-rows">${rows.join("<br>")}</div>` + teamHtml;
 }
 
 function metricLabel(v) {
@@ -303,6 +324,7 @@ function bindUI() {
   for (const id of ["#f-area", "#f-emp", "#f-hours", "#sort"]) $(id).addEventListener("input", render);
   $("#f-negot").addEventListener("change", render);
   $("#f-reviews").addEventListener("change", render);
+  $("#f-direct").addEventListener("change", render);
   buildDayToggles();
   $("#loc-set").addEventListener("click", () => {
     const v = $("#loc-input").value.trim(); if (v) setLocation(v);

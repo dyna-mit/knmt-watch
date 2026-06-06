@@ -10,7 +10,7 @@ import json
 import re
 import time
 from html import unescape
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 from bs4 import BeautifulSoup
 
@@ -114,7 +114,8 @@ def _clean(s: str | None) -> str:
 # ---------------- website ----------------
 def find_website(practice: str, city: str) -> dict:
     """Find the practice's own website + basic on-site info (KvK, emails, description)."""
-    out = {"website": None, "website_title": None, "description": None, "kvk": None, "emails": []}
+    out = {"website": None, "website_title": None, "description": None, "kvk": None,
+           "emails": [], "practice_photo": None}
     results = _ddg(f"{practice} {city} tandarts", 6) or _ddg(f"{practice} {city}", 6)
     pick = None
     pname = re.sub(r"[^a-z0-9]", "", practice.lower())
@@ -142,6 +143,9 @@ def find_website(practice: str, city: str) -> dict:
     md = soup.find("meta", attrs={"name": "description"}) or soup.find("meta", attrs={"property": "og:description"})
     if md and md.get("content"):
         out["description"] = _clean(md["content"])[:300]
+    og = soup.find("meta", attrs={"property": "og:image"}) or soup.find("meta", attrs={"name": "og:image"})
+    if og and og.get("content"):
+        out["practice_photo"] = urljoin(pick, og["content"])
     text = soup.get_text(" ")
     m = _KVK_RE.search(text)
     if m:
@@ -215,35 +219,78 @@ def find_team_page(base_url: str, home_html: str) -> str | None:
     return None
 
 
-def extract_people(html: str) -> list[dict]:
-    """Pull (name, title, big_number?) from a team/over-ons page — high precision.
+def _img_is_photo(src: str) -> bool:
+    """Reject logos/icons/sprites/placeholders — keep plausible portrait images."""
+    s = (src or "").lower()
+    if not s or s.startswith("data:"):
+        return False
+    bad = ("logo", "icon", "sprite", "favicon", "placeholder", "avatar-default",
+           "whatsapp", "facebook", "instagram", "linkedin", "google", "map", "vlag",
+           "flag", "banner", "header", "footer", "loading", "spinner")
+    return not any(w in s for w in bad)
 
-    A capitalised phrase only counts as a person if it sits within a short window of a
-    protected title, an honorific (drs./dhr./mevr.), or a published 11-digit BIG number.
+
+def _pick_img(node, base_url: str) -> str | None:
+    """First plausible portrait <img> within `node` (handles lazy-load attrs)."""
+    for img in node.find_all("img"):
+        src = (img.get("src") or img.get("data-src") or img.get("data-lazy-src")
+               or img.get("data-original") or "")
+        if _img_is_photo(src):
+            return urljoin(base_url, src)
+    return None
+
+
+def extract_people(html: str, base_url: str = "") -> list[dict]:
+    """Pull (name, title, photo?, big_number?) from a team page — high precision, DOM-aware.
+
+    Pass 1 (DOM): for each container that holds a job title + a person name, also grab the
+    nearest portrait image -> people WITH photos. Pass 2 (text): names next to a title we
+    might have missed -> people without photos. A name only counts with a title/BIG nearby,
+    which kills menu/treatment/form noise.
     """
     if not html:
         return []
-    text = _clean(html)
-    low = text.lower()
+    soup = BeautifulSoup(html, "lxml")
     people: dict[str, dict] = {}
 
+    # Pass 1: structural — blocks that look like a person card (title + name [+ photo]).
+    for block in soup.find_all(["li", "article", "figure", "div", "section"]):
+        if len(people) >= 10:
+            break
+        txt = _clean(block.get_text(" "))
+        if len(txt) > 240 or not txt:
+            continue  # whole-page wrappers: skip, we want small person cards
+        low = txt.lower()
+        title = next((t for t in _TITLE_WORDS if t in low), "")
+        if not title:
+            continue
+        m = _NAME_RE.search(txt)
+        if not m:
+            continue
+        name = re.sub(r"[-–\s]+$", "", m.group(1).strip())
+        if not _looks_like_name(name) or name in people:
+            continue
+        big = _BIGNUM_RE.search(txt)
+        people[name] = {"name": name, "title": title or "tandarts",
+                        "photo": _pick_img(block, base_url),
+                        "big_number": big.group(1) if big else None}
+
+    # Pass 2: text fallback for names without a tidy card (no photo).
+    text = _clean(html)
     for m in _NAME_RE.finditer(text):
-        name = re.sub(r"[-–\s]+$", "", m.group(1).strip())  # drop trailing dash/space
+        if len(people) >= 10:
+            break
+        name = re.sub(r"[-–\s]+$", "", m.group(1).strip())
         if not _looks_like_name(name) or name in people:
             continue
         a, b = m.start(), m.end()
         ctx = text[max(0, a - 40): min(len(text), b + 40)]
-        ctxl = ctx.lower()
-        # Require an actual JOB-TITLE word (not just an honorific) within the window — a
-        # BIG number nearby also qualifies. This kills contact-form labels & footer noise.
-        title = next((t for t in _TITLE_WORDS if t in ctxl), "")
+        title = next((t for t in _TITLE_WORDS if t in ctx.lower()), "")
         big = _BIGNUM_RE.search(ctx)
         if not title and not big:
             continue
-        people[name] = {"name": name, "title": title or "tandarts",
+        people[name] = {"name": name, "title": title or "tandarts", "photo": None,
                         "big_number": big.group(1) if big else None}
-        if len(people) >= 8:
-            break
     return list(people.values())
 
 
@@ -266,13 +313,13 @@ def enrich_practice(practice: str, city: str, contact_name: str = "") -> dict:
     result = {
         "practice": practice, "city": city,
         "website": None, "website_title": None, "description": None,
-        "kvk": None, "kvk_url": None, "emails": [],
+        "kvk": None, "kvk_url": None, "emails": [], "practice_photo": None,
         "rating": None, "reviews": None, "zorgkaart_url": None,
         "team": [], "big_checks": [], "enriched_at": None,
     }
     site = find_website(practice, city)
     result.update({k: site.get(k) for k in
-                   ("website", "website_title", "description", "kvk", "emails")})
+                   ("website", "website_title", "description", "kvk", "emails", "practice_photo")})
 
     zk = find_zorgkaart(practice, city)
     result.update({k: zk.get(k) for k in ("rating", "reviews", "zorgkaart_url")})
@@ -282,7 +329,7 @@ def enrich_practice(practice: str, city: str, contact_name: str = "") -> dict:
     if site.get("_html") and site.get("_url"):
         team_url = find_team_page(site["_url"], site["_html"])
         team_html = _fetch(team_url) if team_url else site["_html"]
-        people = extract_people(team_html)
+        people = extract_people(team_html, base_url=team_url or site["_url"])
         # KvK fallback: often only on the contact/over-ons page, not the homepage.
         if not result.get("kvk") and team_html:
             m = _KVK_RE.search(BeautifulSoup(team_html, "lxml").get_text(" "))

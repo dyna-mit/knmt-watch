@@ -48,7 +48,24 @@ async function init() {
   bindUI();
   refreshLocStatus();
   if (state.orsKey) $("#ors-key").value = state.orsKey;
+  // Filters expanded on desktop, collapsed on phones (where they'd eat the screen).
+  $("#filters-panel").open = window.innerWidth >= 760;
   render();
+}
+
+// Count of active narrowing filters, shown on the collapsed Filters summary.
+function updateFilterSummary() {
+  let n = 0;
+  if ($("#search").value.trim()) n++;
+  if ($("#f-area").value) n++;
+  if ($("#f-emp").value) n++;
+  if (parseInt($("#f-hours").value, 10) > 0) n++;
+  if ($("#f-since").value) n++;
+  if ($("#f-reviews").checked) n++;
+  if ($("#f-direct").checked) n++;
+  if (state.days.size) n += state.days.size;
+  $("#filters-summary").innerHTML =
+    "⚙ Filters &amp; sortering" + (n ? ` <span class="fcount">${n} actief</span>` : "");
 }
 
 function fillSelect(sel, values, allLabel) {
@@ -131,6 +148,7 @@ function bestMetric(v) {
 function pKey(v) { return `${(v.practice || "?").toLowerCase()}|${(v.city || "").toLowerCase()}`; }
 
 function render() {
+  updateFilterSummary();
   const list = currentList();
   const main = $("#list");
   main.innerHTML = "";

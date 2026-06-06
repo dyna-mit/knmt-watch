@@ -14,6 +14,17 @@ header {
   box-shadow: 0 1px 6px rgba(0,0,0,.04);
 }
 .bar { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+#filters-panel { margin-top: 6px; }
+#filters-summary { list-style: none; cursor: pointer; user-select: none;
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--accent-soft); color: var(--accent); font-weight: 600; font-size: 13px;
+  padding: 7px 12px; border-radius: 9px; }
+#filters-summary::-webkit-details-marker { display: none; }
+#filters-summary::after { content: "▾"; font-size: 11px; }
+#filters-panel[open] #filters-summary::after { content: "▴"; }
+#filters-summary .fcount { background: var(--accent); color: #fff; border-radius: 999px;
+  font-size: 11px; padding: 1px 7px; }
+#filters-summary .fcount:empty { display: none; }
 h1 { font-size: 18px; margin: 0; color: var(--accent); }
 .meta { font-size: 12px; color: var(--muted); }
 input, select, button { font: inherit; }

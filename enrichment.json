@@ -10664,5 +10664,28 @@
    }
   ],
   "enriched_at": "2026-06-06T11:06:42Z"
+ },
+ "tandartspraktijk schoolstraat|lisse": {
+  "practice": "Tandartspraktijk Schoolstraat",
+  "city": "Lisse",
+  "website": "https://www.tpschoolstraat.nl",
+  "website_title": "Tandarts Lisse, Tandartspraktijk Lisse, Tandheelkunde, orthodontie, endodontologie, implantologie,",
+  "description": "Tandarts Lisse, Tandartspraktijk Lisse, Tandarts Bogers, Tandarts Dolbina, Tandheelkunde, orthodontie, endodontologie, implantologie, mondhygiëne, parodontologie",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "balie@tpschoolstraat.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-schoolstraat-lisse-10021346",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-06-08T12:26:36Z"
  }
 }

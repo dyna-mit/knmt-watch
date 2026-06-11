@@ -10687,5 +10687,86 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-06-08T12:26:36Z"
+ },
+ "fresh unieke mondzorg b.v.|bodegraven": {
+  "practice": "Fresh Unieke Mondzorg B.V.",
+  "city": "Bodegraven",
+  "website": "https://www.freshuniekemondzorg.nl",
+  "website_title": "Home Fresh Unieke Mondzorg",
+  "description": "Fresh Unieke Mondzorg is er speciaal voor zorgafhankelijke, kwetsbare mensen zoals ouderen, gehandicapten, psychiatrische en justitiële cliënten.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@freshuniekemondzorg.nl"
+  ],
+  "practice_photo": null,
+  "rating": 3.9,
+  "reviews": 2,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-fresh-unieke-mondzorg-mobiel-mondzorgteam-woerden-10006695",
+  "opening_hours": "Ma 08:30-17:00, Di 08:30-17:00, Wo 08:30-17:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "17:00",
+  "team": [
+   {
+    "name": "Fresh Academy Duitslandweg",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Fresh Academy",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Academy Freshtandartsen Inloggen",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Doelgroepen Alle",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Fresh Academy Duitslandweg",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Fresh Academy",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Academy Freshtandartsen Inloggen",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Doelgroepen Alle",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-11T17:58:56Z"
  }
 }

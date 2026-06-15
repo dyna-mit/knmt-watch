@@ -10768,5 +10768,100 @@
    }
   ],
   "enriched_at": "2026-06-11T17:58:56Z"
+ },
+ "jeugdtandverzorging lansingerland|bergschenhoek": {
+  "practice": "Jeugdtandverzorging Lansingerland",
+  "city": "Bergschenhoek",
+  "website": "https://www.jtv-lansingerland.nl",
+  "website_title": "Tandarts Bergschenhoek & Lansingerland | JTV Tandartspraktijk",
+  "description": "Tandartspraktijk JTV in Bergschenhoek, Lansingerland. Tandarts voor het hele gezin. ✓ Nieuwe patiënten welkom ✓ Ruime ervaring ✓ Moderne apparatuur. Bel 010-2687117.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": "https://jtvlansingerland.nl/og-image.jpg",
+  "rating": 9.5,
+  "reviews": 28,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-jeugdtandverzorging-lansingerland-bergschenhoek-10014116",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-06-15T19:58:45Z"
+ },
+ "tandartspraktijk lammenschans b.v.|leiden": {
+  "practice": "tandartspraktijk Lammenschans B.v.",
+  "city": "Leiden",
+  "website": "https://www.tandartspraktijklammenschans.nl",
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-lammenschans-leiden-10014019",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-06-15T19:59:12Z"
+ },
+ "tandartspratijk i-dental|rotterdam": {
+  "practice": "Tandartspratijk i-Dental",
+  "city": "Rotterdam",
+  "website": "https://www.i-dental.nl",
+  "website_title": "Tandartspraktijk i-Dental: Toegankelijke mondzorg in Rotterdam",
+  "description": "Welkom bij i-Dental Rotterdam Toegankelijke mondzorg in Rotterdam, waar jij écht gezien wordt inschrijven contact Al sinds 2009 zetten wij ons in voor warme, eerlijke en toegankelijke mondzorg. In onze moderne praktijk aan de Westblaak bieden wij alle behandelingen onder één dak. Ons betrokken team ",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@i-dental.nl"
+  ],
+  "practice_photo": "https://www.i-dental.nl/wp-content/uploads/2025/12/sfeerimpressie_02-breed.webp",
+  "rating": 9.3,
+  "reviews": 2,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-i-dental-tandartspraktijk-rotterdam-3033528",
+  "opening_hours": "Zo 08:30-17:30",
+  "has_weekend": true,
+  "has_evening": true,
+  "latest_close": "17:30",
+  "team": [
+   {
+    "name": "Rotterdam Centrum",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Rotterdam Centrum Continu",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Rotterdam Centrum",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Rotterdam Centrum Continu",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-15T19:59:24Z"
  }
 }

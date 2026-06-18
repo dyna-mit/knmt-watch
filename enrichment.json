@@ -10863,5 +10863,26 @@
    }
   ],
   "enriched_at": "2026-06-15T19:59:24Z"
+ },
+ "denta nova|'s-gravenhage": {
+  "practice": "Denta Nova",
+  "city": "'s-Gravenhage",
+  "website": "https://dentanova.nl",
+  "website_title": "Uitstekende tandheelkundige zorg in Den Haag bij DentaNova",
+  "description": "Ervaar tandheelkundige zorg met liefde en aandacht in Den Haag. Bij DentaNova bieden wij controles, cosmetische tandheelkunde, orthodontie en implantaten.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": "https://images.unsplash.com/photo-1612736777093-461fb48101d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxfHxkZW50aXN0cnl8ZW58MHx8fHwxNzEwODQ2OTYyfDA&ixlib=rb-4.0.3&q=80&w=1080",
+  "rating": 6.9,
+  "reviews": 56,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/psychologiepraktijk-en-psychotherapiepraktijk-oh-my-mood-amsterdam-10011901",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-06-18T16:51:28Z"
  }
 }

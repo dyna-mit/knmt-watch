@@ -10884,5 +10884,177 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-06-18T16:51:28Z"
+ },
+ "tandartspraktijk wijk bij duurstede|wijk bij duurstede": {
+  "practice": "Tandartspraktijk Wijk bij Duurstede",
+  "city": "Wijk bij Duurstede",
+  "website": "https://tandartspraktijkwijkbijduurstede.nl",
+  "website_title": "Home - Tandartspraktijk Wijk bij Duurstede",
+  "description": "Zoekt u een tandarts in Wijk bij Duurstede? Tandartspraktijk Wijk bij Duurstede biedt professionele tandheelkundige zorg voor het hele gezin.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tpwbd.nl"
+  ],
+  "practice_photo": "https://tandartspraktijkwijkbijduurstede.nl/wp-content/uploads/2024/07/LOGO-Tandartspraktijk-Wijk-bij-Duurstede-1200x630-1.jpg",
+  "rating": 9.2,
+  "reviews": 1,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-dijkstraat-wijk-bij-duurstede-183064/specialisten",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Duurstede Wijkse",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Duurstede Nieuwe",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Duurstede Wijkse",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Duurstede Nieuwe",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-22T18:59:01Z"
+ },
+ "dental larikslaan|rotterdam": {
+  "practice": "Dental Larikslaan",
+  "city": "Rotterdam",
+  "website": "https://www.dentalarikslaan.nl",
+  "website_title": "Dental Larikslaan | Tandarts Hillegersberg - Schiebroek",
+  "description": "Dental Larikslaan is de vertrouwde tandarts in Rotterdam Noord.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@dentalarikslaan.nl"
+  ],
+  "practice_photo": "https://www.dentalarikslaan.nl/wp-content/uploads/2025/12/Dental-Larikslaan-2-web-09794.jpg",
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-larikslaan-rotterdam-10002888/specialisten",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Mariana Silva Soares",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Sera Ardjooetomo Preventie-assistente",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Eleonora Araujo Preventie-assistente",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Ugur Can Gökçe",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Larikslaan",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Mariana Silva Soares",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "4 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   },
+   {
+    "name": "Sera Ardjooetomo Preventie-assistente",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Eleonora Araujo Preventie-assistente",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Ugur Can Gökçe",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Dental Larikslaan",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-22T18:59:22Z"
+ },
+ "meinds mondzorg|oud-beijerland": {
+  "practice": "Meinds Mondzorg",
+  "city": "Oud-Beijerland",
+  "website": "https://www.meindsmondzorg.nl",
+  "website_title": "Meinds Mondzorg – Oud-Beijerland",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "centrum@meindsmondzorg.nl",
+   "poortwijk@meindsmondzorg.nl"
+  ],
+  "practice_photo": null,
+  "rating": 9.8,
+  "reviews": 2,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-meinds-mondzorg-locatie-poortwijk-oud-beijerland-209545",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-06-22T18:59:30Z"
  }
 }

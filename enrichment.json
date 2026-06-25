@@ -11056,5 +11056,241 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-06-22T18:59:30Z"
+ },
+ "waldent|'s-gravenhage": {
+  "practice": "Waldent",
+  "city": "'s-Gravenhage",
+  "website": "https://waldent.nl",
+  "website_title": "Tandartspraktijk Waldent Den Haag Bezuidenhout | Persoonlijke mondzorg",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": 9.5,
+  "reviews": 49,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-waldent-den-haag-10002884",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Haag Bezuidenhout",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Haag Bezuidenhout",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-25T13:35:13Z"
+ },
+ "dental clinics parkzoom|bergschenhoek": {
+  "practice": "Dental Clinics Parkzoom",
+  "city": "Bergschenhoek",
+  "website": "https://www.dentalclinics.nl",
+  "website_title": "Tandartspraktijk Dental Clinics Bergschenhoek Parkzoom",
+  "description": "Op zoek naar een nieuwe tandarts? Onze behandelaren staan voor je klaar. Bij Dental Clinics Bergschenhoek - Parkzoom zorgen we voor je lach!",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "bergschenhoek-parkzoom@dentalclinics.nl"
+  ],
+  "practice_photo": "https://www.dentalclinics.nl/wp-content/uploads/2013/03/dc-bergschenhoek-01-1-568x379.jpg",
+  "rating": 9.2,
+  "reviews": 408,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-clinics-bergschenhoek-parkzoom-bergschenhoek-3040985",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.H.J. van Dam",
+    "big_number": "39066801702",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-25T13:35:33Z"
+ },
+ "tandartspraktijk van wijck|leiden": {
+  "practice": "Tandartspraktijk van Wijck",
+  "city": "Leiden",
+  "website": "https://www.tandartspraktijkvanwijck.nl",
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": 9.7,
+  "reviews": 6,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandarts-en-mondhygienepraktijk-m-j-van-wijck-leiden-181390/waardering",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-06-25T13:35:58Z"
+ },
+ "kies voor mondzorg onder narcose / dutand|alphen aan de rijn": {
+  "practice": "Kies voor Mondzorg onder narcose / Dutand",
+  "city": "Alphen aan de Rijn",
+  "website": "https://www.dutand.nl",
+  "website_title": "Tarieven - DuTand",
+  "description": "Bekijk op deze pagina onze tarieven. U kunt bij ons kosteloos een begroting of prijsvergelijking aanvragen.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@stoptandartsangst.nl"
+  ],
+  "practice_photo": "https://www.dutand.nl/wp-content/uploads/2025/03/16.jpg",
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-kies-voor-mondzorg-onder-narcose-alphen-aan-den-rijn-3045808/waardering/na-18-jaar-minstens-4x-per-jaar-93fce581245131b9ab21fd0fe34e0e9b",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Henry Dunantweg",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kosten Materiaal",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Adresgegevens Henry Dunantweg",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Rijn Tel",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Henry Dunantweg",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kosten Materiaal",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Adresgegevens Henry Dunantweg",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Rijn Tel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "6 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-25T13:36:16Z"
  }
 }

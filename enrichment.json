@@ -11292,5 +11292,100 @@
    }
   ],
   "enriched_at": "2026-06-25T13:36:16Z"
+ },
+ "tandheelkundig centrum woubrugge|woubrugge": {
+  "practice": "Tandheelkundig Centrum Woubrugge",
+  "city": "Woubrugge",
+  "website": "https://www.tandartswoubrugge.nl",
+  "website_title": "Homepagina van Tandheelkundig Centrum Woubrugge",
+  "description": "Kleinschalige tandartspraktijk in Woubrugge nabij Alphen aan den Rijn. Wij staan voor een persoonlijke benadering!",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartswoubrugge.nl"
+  ],
+  "practice_photo": "https://www.tandartswoubrugge.nl/wp-content/uploads/2023/11/40021435.png",
+  "rating": 9.8,
+  "reviews": 4,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandheelkundig-centrum-woubrugge-woubrugge-181361",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Specialiteiten Omgaan",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Tandheelkundig Centrum Woubrugge",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Chan Afgestudeerd",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Rooden Naast",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Woubrugge Tel",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Specialiteiten Omgaan",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Tandheelkundig Centrum Woubrugge",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Chan Afgestudeerd",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Rooden Naast",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Woubrugge Tel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "2 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   }
+  ],
+  "enriched_at": "2026-06-29T16:52:17Z"
  }
 }

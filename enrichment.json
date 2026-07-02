@@ -11638,5 +11638,257 @@
    }
   ],
   "enriched_at": "2026-06-29T16:52:17Z"
+ },
+ "dens tandartsen|rotterdam": {
+  "practice": "DENS tandartsen",
+  "city": "Rotterdam",
+  "website": "https://www.dentalclinics.nl",
+  "website_title": "Tandarts Rotterdam - Dental Clinics Rotterdam",
+  "description": "Kies ook voor de beste tandarts in Rotterdam, waar u niet meer betaalt dan nodig is. U bent van harte welkom in één van onze moderne tandartspraktijken.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "berglustlaan@dentalclinics.nl",
+   "eudokiaplein@dentalclinics.nl",
+   "ommoord@dentalclinics.nl",
+   "pleinweg@dentalclinics.nl",
+   "zuiderterras@dentalclinics.nl"
+  ],
+  "practice_photo": "https://www.dentalclinics.nl/wp-content/uploads/2022/02/DC-Eudokiaplein-25-08-2022-41.jpg",
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.H.J. van Dam",
+    "big_number": "39066801702",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-02T08:29:56Z"
+ },
+ "leuke praktijk nabij alphen aan den rijn|nabij alphen aan den rijn": {
+  "practice": "Leuke praktijk nabij Alphen aan den Rijn",
+  "city": "nabij Alphen aan den Rijn",
+  "website": "https://www.ouderijntandartsen.nl",
+  "website_title": "Oude Rijn Dentists | Dentist in Alphen & Leiden",
+  "description": "A warm welcome to Oude Rijn Tandartsen, your dentist in Alphen aan den Rijn and Leiden. We are accepting new patients. Register or call us.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@ouderijntandartsen.nl"
+  ],
+  "practice_photo": null,
+  "rating": 7.2,
+  "reviews": 3,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/huisartsenpraktijk-bospark-huisartsen-praktijk-van-rijn-alphen-aan-den-rijn-10000744",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Prince Bernhardlaan",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Frequently Asked Questions",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Rijn Prince Bernhardlaan",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Leiden Korevaarstraat",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Oude Rijn Dentists",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Register Oude Rijn",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "At Oude Rijn",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dentist Leiden Our",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Instagram Frequently Asked",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Prince Bernhardlaan",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Frequently Asked Questions",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Rijn Prince Bernhardlaan",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Leiden Korevaarstraat",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Oude Rijn Dentists",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Register Oude Rijn",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "4 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   },
+   {
+    "name": "At Oude Rijn",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "8 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   },
+   {
+    "name": "Dentist Leiden Our",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "2 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   },
+   {
+    "name": "Instagram Frequently Asked",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-02T08:30:58Z"
  }
 }

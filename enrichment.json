@@ -11890,5 +11890,49 @@
    }
   ],
   "enriched_at": "2026-07-02T08:30:58Z"
+ },
+ "tandartsenpraktijk nina saffari|rotterdam": {
+  "practice": "Tandartsenpraktijk Nina Saffari",
+  "city": "Rotterdam",
+  "website": "https://www.tandartshulp.nl",
+  "website_title": "Tandarts A Saffari - Rotterdam | tandartshulp.nl",
+  "description": "Tandarts A Saffari op de Cornelis Bloemaertsingel 38 in Rotterdam. Onze tandartsenpraktijk is niet zeer groot maar zeer “personalised” De geschiedenis van deze tandartsenpraktijk gaat terug naar de jaren 60 van de vorige eeuw. De praktijk bestaat al 39 jaar. Merendeel van onze patiëntenpopulatie bes",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-07-06T09:17:27Z"
+ },
+ "mondzorgplus|raamsdonksveer": {
+  "practice": "MondzorgPlus",
+  "city": "Raamsdonksveer",
+  "website": "https://www.mondzorgplus.nl",
+  "website_title": "Mondzorg voor kwetsbare mensen | MondzorgPlus",
+  "description": "MondzorgPlus biedt gespecialiseerde mondzorg op locatie voor zorgafhankelijke ouderen en mensen met een beperking binnen zorginstellingen.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@mondzorgplus.nl"
+  ],
+  "practice_photo": null,
+  "rating": 7,
+  "reviews": 2,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-mondzorgplus-raamsdonksveer-3048218",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-07-06T09:17:36Z"
  }
 }

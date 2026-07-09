@@ -11934,5 +11934,230 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-07-06T09:17:36Z"
+ },
+ "tandartsenpraktijk wu|voorhout": {
+  "practice": "Tandartsenpraktijk Wu",
+  "city": "Voorhout",
+  "website": "https://tandartspraktijkwu.nl",
+  "website_title": "Over de praktijk | Tandarts Voorhout",
+  "description": "tandarts,kies,kiespijn,mond,mondzorg,voorhout,implantaat,Mondhygiënist,kroon,vulling,",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartspraktijkwu.nl"
+  ],
+  "practice_photo": null,
+  "rating": 9.6,
+  "reviews": 5,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-wu-voorhout-225304",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Nederlandse Vereniging",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Nederlandse Vereniging",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-09T08:58:20Z"
+ },
+ "tandzorg katwijk|katwijk": {
+  "practice": "Tandzorg Katwijk",
+  "city": "Katwijk",
+  "website": "https://tandzorgkatwijk.nl",
+  "website_title": "Tandzorg Katwijk - Uw Tandarts in Katwijk aan Zee",
+  "description": "Tandarts Katwijk is uw vaste tandarts in Katwijk aan Zee. Tandartspraktijk en Tanden bleken in Katwijk. ✓ Geen wachtlijst ✓ Spoedbehandeling ✓ Angsttandarts",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandzorgkatwijk.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandzorg-katwijk-katwijk-10021286",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Beau Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Tandzorg Katwijk",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "M.Chrusciel Preventie-assistente",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": "99931744202"
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Beau Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Tandzorg Katwijk",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "M.Chrusciel Preventie-assistente",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig",
+    "site_big_number": "99931744202"
+   }
+  ],
+  "enriched_at": "2026-07-09T08:58:49Z"
+ },
+ "dental clinics dordrecht singel|dordrecht": {
+  "practice": "Dental Clinics Dordrecht Singel",
+  "city": "Dordrecht",
+  "website": "https://www.dentalclinics.nl",
+  "website_title": "Dentist Dordrecht - Dental Clinics Dordrecht Singel",
+  "description": "Your dentist in Dordrecht. You are welcome for prevention and implantology, among other things. Sign up within 2 minutes!",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "dordrecht@dentalclinics.nl"
+  ],
+  "practice_photo": "https://www.dentalclinics.nl/wp-content/uploads/2020/10/dc-dordrecht-singel-26-06-2025-04-568x379.jpg",
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-clinics-dordrecht-dordrecht-182724/waardering/ik-ben-heel-tevreden-tandarts-en-cace4e8e63613d429a8a8bbcf75b5ff6",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.H.J. van Dam",
+    "big_number": "39066801702",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-09T08:59:39Z"
+ },
+ "tandartsenpraktijk da costa|alphen aan den rijn": {
+  "practice": "Tandartsenpraktijk Da Costa",
+  "city": "Alphen aan den Rijn",
+  "website": "https://www.tandartshulp.nl",
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartsenpraktijk-da-costastraat-alphen-aan-den-rijn-181503/specialisten",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-07-09T09:00:04Z"
  }
 }

@@ -12159,5 +12159,158 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-07-09T09:00:04Z"
+ },
+ "tandartsenpraktijk wijsman|rotterdam": {
+  "practice": "Tandartsenpraktijk Wijsman",
+  "city": "Rotterdam",
+  "website": "https://www.tandartsenpraktijkwijsman.nl",
+  "website_title": "Home - Tandartsenpraktijk Wijsman",
+  "description": "Complete tandheelkundige zorg: van mondhygiëne en preventie tot implantaten, protheses, klikgebitten, endodontologie, tanden bleken en parodontologie.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "balie@tpwijsman.nl"
+  ],
+  "practice_photo": null,
+  "rating": 8.6,
+  "reviews": 3,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartsenpraktijk-wijsman-rotterdam-182448",
+  "opening_hours": "Ma 08:00-17:00, Di 08:00-17:00, Wo 08:00-17:00, Do 08:00-17:00, Vr 08:00-17:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "17:00",
+  "team": [
+   {
+    "name": "Lodewijk van Zwol Tandarts-implantoloog",
+    "title": "tandarts",
+    "photo": "https://www.tandartsenpraktijkwijsman.nl/runtime/images/13/400x400/Lodewijk.jpg",
+    "big_number": "29044887002"
+   },
+   {
+    "name": "Willemijne Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.tandartsenpraktijkwijsman.nl/runtime/images/11/400x400/Willemijne.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Roos Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.tandartsenpraktijkwijsman.nl/runtime/images/22/400x400/Roos.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Sanne Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.tandartsenpraktijkwijsman.nl/runtime/images/23/400x400/Sanne.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Sapida Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.tandartsenpraktijkwijsman.nl/runtime/images/21/400x400/Sapida.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Rene Tijsma Tandtechnieker",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": "29044887002"
+   },
+   {
+    "name": "Astrid Preventie-assistente Maaike",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Baliemedewerkster Robin Meershoek",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Wijsman Oostzeedijk Beneden",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Lodewijk van Zwol Tandarts-implantoloog",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig",
+    "site_big_number": "29044887002"
+   },
+   {
+    "name": "Willemijne Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Roos Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Sanne Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Sapida Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Rene Tijsma Tandtechnieker",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig",
+    "site_big_number": "29044887002"
+   },
+   {
+    "name": "Astrid Preventie-assistente Maaike",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Baliemedewerkster Robin Meershoek",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Wijsman Oostzeedijk Beneden",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-13T08:34:53Z"
  }
 }

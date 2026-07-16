@@ -12312,5 +12312,42 @@
    }
   ],
   "enriched_at": "2026-07-13T08:34:53Z"
+ },
+ "centrum voor tandheelkunde gorinchem|gorinchem": {
+  "practice": "Centrum voor Tandheelkunde Gorinchem",
+  "city": "Gorinchem",
+  "website": "https://cvtgorinchem.nl",
+  "website_title": "Tandarts",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": 6.3,
+  "reviews": 2,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-centrum-voor-tandheelkunde-gorinchem-183377",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Tandartsbezoek Eerste",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Tandartsbezoek Eerste",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-16T07:37:20Z"
  }
 }

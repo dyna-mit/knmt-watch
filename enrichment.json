@@ -12349,5 +12349,170 @@
    }
   ],
   "enriched_at": "2026-07-16T07:37:20Z"
+ },
+ "mondzorg zwijndrecht|zwijndrecht": {
+  "practice": "Mondzorg Zwijndrecht",
+  "city": "Zwijndrecht",
+  "website": "https://www.mondzorgzwijndrecht.nl",
+  "website_title": "Mondzorg Zwijndrecht: Angstvrije Mondhygiëne en Zorg",
+  "description": "Welkom bij Mondzorg, waar jouw glimlach onze prioriteit is. Ons team combineert geavanceerde technologie met persoonlijke zorg om jouw mondgezondheid en zelfvertrouwen te verbeteren. Bereik de heldere, gezonde glimlach die je verdient bij ons.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@mondzorgzwijndrecht.nl"
+  ],
+  "practice_photo": "https://cdn.prod.website-files.com/672b156bb00637afb2d240ff/6884b82cacecba76734872bd_OpenGraph%20Image.jpeg",
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-mondfit-zwijndrecht-zwijndrecht-10083069",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Kinderen Stel",
+    "title": "tandarts",
+    "photo": "https://cdn.prod.website-files.com/672e3e7e1d69d80d395df466/68c3004fd934d8c49664cc6e_674dacdcfd1ff14bab0139d3_home_services_6.avif",
+    "big_number": null
+   },
+   {
+    "name": "Rob Van",
+    "title": "tandarts",
+    "photo": "https://cdn.prod.website-files.com/672e3e7e1d69d80d395df466/6735e6842c1cbbc648acc836_Rob%20Van%20houdt.avif",
+    "big_number": null
+   },
+   {
+    "name": "Patrick Kok",
+    "title": "tandarts",
+    "photo": "https://cdn.prod.website-files.com/672e3e7e1d69d80d395df466/6735ddd62893660dd85ab4d1_unnamed.avif",
+    "big_number": null
+   },
+   {
+    "name": "Bishoy Younan",
+    "title": "tandarts",
+    "photo": "https://cdn.prod.website-files.com/672e3e7e1d69d80d395df466/67390782f54ebe0d0284e6b7_Bishoy%20Younan.avif",
+    "big_number": null
+   },
+   {
+    "name": "Infomedics Angstvrije",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Hanqing Lu De",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Marco Nugteren De",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Daeyenne Jongh Visscher",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Comenencia Ik",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Debbie Gierdharie Beste",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Kinderen Stel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Rob Van",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Patrick Kok",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "2 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   },
+   {
+    "name": "Bishoy Younan",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Infomedics Angstvrije",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Hanqing Lu De",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Marco Nugteren De",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Daeyenne Jongh Visscher",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Comenencia Ik",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "9 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   },
+   {
+    "name": "Debbie Gierdharie Beste",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-20T08:24:16Z"
  }
 }

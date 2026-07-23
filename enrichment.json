@@ -12514,5 +12514,122 @@
    }
   ],
   "enriched_at": "2026-07-20T08:24:16Z"
+ },
+ "tandartsen aan de nieuwe maas|rotterdam": {
+  "practice": "Tandartsen aan de Nieuwe Maas",
+  "city": "Rotterdam",
+  "website": "https://www.tandartsenaandenieuwemaas.nl",
+  "website_title": "Home - Tandartsen aan de Nieuwe Maas Rotterdam",
+  "description": "Tandartsen aan de Nieuwe Maas Rotterdam, Stieltjesstraat 118, Rotterdam. Voor tandartsen Bloemen, van Valen, Bahalou Hore kunt u hier een afspraak maken.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartsenaandenieuwemaas.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartsen-aan-de-nieuwe-maas-rotterdam-10027872",
+  "opening_hours": "Ma 08:00-17:00, Di 08:00-17:00, Wo 08:00-17:00, Do 08:00-17:00, Vr 08:00-17:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "17:00",
+  "team": [
+   {
+    "name": "S. Dahi Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.tandartsenaandenieuwemaas.nl/runtime/images/85/400x400/female_silhouette_2.png",
+    "big_number": null
+   },
+   {
+    "name": "S. Sahar Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.tandartsenaandenieuwemaas.nl/runtime/images/158/400x400/Sapida_kopie.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Nieuwe Maas Rotterdam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Nieuwe Maas",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Rosan Preventie",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Pascale Receptioniste Gwenda",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Receptioniste Esra Receptioniste",
+    "title": "praktijkmanager",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "S. Dahi Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "S. Sahar Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Nieuwe Maas Rotterdam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Nieuwe Maas",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "N.E. Maas",
+    "big_number": "59064111002",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Rosan Preventie",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Pascale Receptioniste Gwenda",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-23T07:49:20Z"
  }
 }

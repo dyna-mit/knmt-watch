@@ -12631,5 +12631,121 @@
    }
   ],
   "enriched_at": "2026-07-23T07:49:20Z"
+ },
+ "mondzorg langeraar|ter aar": {
+  "practice": "Mondzorg Langeraar",
+  "city": "Ter Aar",
+  "website": "https://vergelijkmondzorg.nl",
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": 10,
+  "reviews": 1,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-mondzorg-langeraar-ter-aar-3044484/specialisten",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-07-27T08:53:26Z"
+ },
+ "mondzorgplus|gorinchem / almkerk": {
+  "practice": "MondzorgPlus",
+  "city": "Gorinchem / Almkerk",
+  "website": "https://www.kuypersmondzorg.nl",
+  "website_title": "Tandarts Gorinchem: Kuypers Mondzorg & Tandheelkunde",
+  "description": "Tandarts in Gorinchem: Kuypers Mondzorg Tandheelkunde & Mondhygiëne ✓Beoordeling 9.4 ✓Géén wachtlijst ✓Tandartspraktijk persoonlijk contact",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "500093892@lms.lifeline.nl",
+   "info@kuypersmondzorg.nl",
+   "kuypersmondzorg@zorgmail.nl"
+  ],
+  "practice_photo": "https://www.kuypersmondzorg.nl/wp-content/uploads/2023/04/Wachtkamer-Kuypers-Mondzorg-Gorinchem-Tandarts-en-Mondhygiene.jpg",
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": "Ma 08:15-17:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "17:00",
+  "team": [
+   {
+    "name": "Rob Kuypers Praktijkleider",
+    "title": "praktijkmanager",
+    "photo": "https://www.kuypersmondzorg.nl/wp-content/uploads/2023/01/Rob-Portret.jpg",
+    "big_number": "99022317502"
+   },
+   {
+    "name": "Yvonne Kort",
+    "title": "mondhygiënist",
+    "photo": "https://www.kuypersmondzorg.nl/wp-content/uploads/2022/12/Yvonne.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Sonja van den Berg",
+    "title": "mondhygiënist",
+    "photo": "https://www.kuypersmondzorg.nl/wp-content/uploads/2022/12/Sonja.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Kim Olivier",
+    "title": "mondhygiënist",
+    "photo": "https://www.kuypersmondzorg.nl/wp-content/uploads/2022/12/Kim.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Myrna Kant",
+    "title": "mondhygiënist",
+    "photo": "https://www.kuypersmondzorg.nl/wp-content/uploads/2023/01/Medewerker-Kuypers-Mondzorg.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Hart Management",
+    "title": "praktijkmanager",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Yvonne Kort",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Sonja van den Berg",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Kim Olivier",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Myrna Kant",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-27T08:53:39Z"
  }
 }

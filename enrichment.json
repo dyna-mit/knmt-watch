@@ -12747,5 +12747,299 @@
    }
   ],
   "enriched_at": "2026-07-27T08:53:39Z"
+ },
+ "de tandarts dichtbij capelle|capelle aan den ijssel": {
+  "practice": "De Tandarts Dichtbij Capelle",
+  "city": "Capelle aan den IJssel",
+  "website": "https://www.detandartsdichtbij.nl",
+  "website_title": "De Tandarts Dichtbij | Rotterdam en Capelle aan den IJssel",
+  "description": "De Tandarts Dichtbij biedt de hoogste kwaliteit mondzorg aan in Rotterdam en Capelle aan den IJssel. ✔ Geen wachtlijst ✔ HKZ gecertificeerd ✔ Alles onder 1 dak",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@detandartsdichtbij.nl"
+  ],
+  "practice_photo": null,
+  "rating": 5.6,
+  "reviews": 2,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-de-tandenkliniek-capelle-aan-den-ijssel-3042793",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Dichtbij Specialisaties Kaakchirurgie",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dichtbij Rotterdam De",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dichtbij Betrokken Individueel",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Ali Hadi",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Rotterdam Dentist Rotterdam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Capelle Hollandsch Diep",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Rotterdam Hoogstraat",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Dichtbij Specialisaties Kaakchirurgie",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dichtbij Rotterdam De",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dichtbij Betrokken Individueel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Ali Hadi",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "A.S. Hadi",
+    "big_number": "49930027102",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Rotterdam Dentist Rotterdam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Capelle Hollandsch Diep",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Rotterdam Hoogstraat",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-30T07:48:41Z"
+ },
+ "de tandarts dichtbij rotterdam|rotterdam": {
+  "practice": "De Tandarts Dichtbij Rotterdam",
+  "city": "Rotterdam",
+  "website": "https://www.detandartsdichtbij.nl",
+  "website_title": "De Tandarts Dichtbij | Rotterdam en Capelle aan den IJssel",
+  "description": "De Tandarts Dichtbij biedt de hoogste kwaliteit mondzorg aan in Rotterdam en Capelle aan den IJssel. ✔ Geen wachtlijst ✔ HKZ gecertificeerd ✔ Alles onder 1 dak",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@detandartsdichtbij.nl"
+  ],
+  "practice_photo": null,
+  "rating": 9,
+  "reviews": 2,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-de-tandarts-dichtbij-locatie-rotterdam-rotterdam-3049248",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Dichtbij Specialisaties Kaakchirurgie",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dichtbij Rotterdam De",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dichtbij Betrokken Individueel",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Ali Hadi",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Rotterdam Dentist Rotterdam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Capelle Hollandsch Diep",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Rotterdam Hoogstraat",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Dichtbij Specialisaties Kaakchirurgie",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dichtbij Rotterdam De",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dichtbij Betrokken Individueel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Ali Hadi",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "A.S. Hadi",
+    "big_number": "49930027102",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Rotterdam Dentist Rotterdam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Capelle Hollandsch Diep",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Rotterdam Hoogstraat",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-07-30T07:48:51Z"
+ },
+ "tcm|alphen aan den rijn": {
+  "practice": "TCM",
+  "city": "Alphen aan den Rijn",
+  "website": "https://tcamolenvliet.nl",
+  "website_title": "Tandarts Alphen aan den Rijn - Tandheelkundig centrum Molenvliet",
+  "description": "Tandarts in Alphen. Alle mondzorg: preventie, mondhygiëne, implantologie, wortelkanaalbehandeling. Bel 0172 - 430 221 of schrijf online in.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tcamolenvliet.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-verwijspraktijk-tcm-implantologie-endodontologie-alphen-aan-den-rijn-10089611/waardering/voor-het-verwijderen-van-mijn-1647f6177d583b8d94b90cf7bc14ba2a",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-07-30T07:48:59Z"
+ },
+ "groene wijk|rotterdam": {
+  "practice": "Groene Wijk",
+  "city": "Rotterdam",
+  "website": "https://www.tp-groenewijk.nl",
+  "website_title": "Home | TANDARTSENPRAKTIJK",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": 1,
+  "reviews": 1,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartsenpraktijk-groene-wijk-rotterdam-3054157",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-07-30T07:49:06Z"
  }
 }

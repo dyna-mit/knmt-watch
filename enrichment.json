@@ -12053,5 +12053,215 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-07-30T07:49:06Z"
+ },
+ "dental clinics dordrecht|dordrecht": {
+  "practice": "Dental Clinics Dordrecht",
+  "city": "Dordrecht",
+  "website": "https://www.dentalclinics.nl",
+  "website_title": "Tandarts Dordrecht - Tandartspraktijk Dental Clinics Dordrecht",
+  "description": "Uw tandarts in Dordrecht voor complete mondzorg voor het hele gezin. Ook voor preventie en implantologie. Meld u aan of kom in contact: 078 - 613 54 44.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": "https://www.dentalclinics.nl/wp-content/uploads/2018/09/DC-Dordrecht-11.jpg",
+  "rating": 9.1,
+  "reviews": 344,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-clinics-dordrecht-dordrecht-182724",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.H.J. van Dam",
+    "big_number": "39066801702",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-08-03T08:47:57Z"
+ },
+ "tandartsenpraktijk unident|leiden": {
+  "practice": "Tandartsenpraktijk Unident",
+  "city": "Leiden",
+  "website": "https://www.unident.nl",
+  "website_title": "Tandarts Leiden - Unident | Persoonlijke zorg zonder wachtlijst",
+  "description": "Ervaren en betrokken tandartsen in Leiden Centrum. Unident biedt complete mondzorg: van controles en implantaten tot cosmetische tandheelkunde en aligners.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@unident.nl"
+  ],
+  "practice_photo": null,
+  "rating": 9.3,
+  "reviews": 172,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartsenpraktijk-unident-leiden-181322/waardering",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Preventie Tandvleesbehandeling Gaatje",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Thomas Holt",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Eric Dickmann",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Farhad Tahmasian",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Eric Dickman",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Eric Dickmann Snel",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Preventie Tandvleesbehandeling Gaatje",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Thomas Holt",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "T.P. Scholtus",
+    "big_number": "19930128402",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Eric Dickmann",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Farhad Tahmasian",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "F. Tahmasian",
+    "big_number": "79053802202",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Eric Dickman",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Eric Dickmann Snel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "E.G.A. Snel",
+    "big_number": "19048284002",
+    "note": "actieve BIG-registratie als Tandarts"
+   }
+  ],
+  "enriched_at": "2026-08-03T08:48:15Z"
  }
 }

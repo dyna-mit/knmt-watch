@@ -12263,5 +12263,425 @@
    }
   ],
   "enriched_at": "2026-08-03T08:48:15Z"
+ },
+ "uw tandarts|voorburg": {
+  "practice": "Uw Tandarts",
+  "city": "Voorburg",
+  "website": "https://uwtandarts.nl",
+  "website_title": "Tandarts Voorburg: sinds 1996 dé tandartspraktijk in Voorburg",
+  "description": "Al sinds 1996 uw vertrouwde tandarts in Voorburg voor alle tandheelkundige behandelingen. ✓ Online inschrijven ✓ Aangesloten bij KNMT.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@uwtandarts.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": "Ma 08:30-17:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "17:00",
+  "team": [
+   {
+    "name": "Kindertandarts Voorburg",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Diyar Kamal Tandarts-implantoloog",
+    "title": "tandarts",
+    "photo": "https://uwtandarts.nl/wp-content/uploads/2024/12/Diyar-Kamal-tandarts-implantoloog-van-Uw-Tandarts-in-Voorburg-cropped-scaled.jpg",
+    "big_number": "19930011802"
+   },
+   {
+    "name": "Jade Visser",
+    "title": "tandarts",
+    "photo": "https://uwtandarts.nl/wp-content/uploads/2025/07/jade.jpg",
+    "big_number": "09911892602"
+   },
+   {
+    "name": "Contactgegevens Parkweg",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Diyar Kamal",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Voorburg Kindertandarts Voorburg",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kenniscentrum Contactgegevens Uw",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Voorburg E-mailadres",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Kindertandarts Voorburg",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Diyar Kamal Tandarts-implantoloog",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig",
+    "site_big_number": "19930011802"
+   },
+   {
+    "name": "Jade Visser",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "4 naamgenoten met Tandarts-registratie; verifieer handmatig",
+    "site_big_number": "09911892602"
+   },
+   {
+    "name": "Contactgegevens Parkweg",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Diyar Kamal",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "D. Kamal",
+    "big_number": "19930011802",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Voorburg Kindertandarts Voorburg",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kenniscentrum Contactgegevens Uw",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "11 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   },
+   {
+    "name": "Voorburg E-mailadres",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-08-06T08:01:52Z"
+ },
+ "dental clinics rotterdam berglustlaan|rotterdam": {
+  "practice": "Dental Clinics Rotterdam Berglustlaan",
+  "city": "Rotterdam",
+  "website": "https://www.dentalclinics.nl",
+  "website_title": "Dentist Rotterdam Hillegersberg - Dental Clinics Rotterdam Berglustlaan",
+  "description": "Your dentist in Rotterdam Hillegersberg for complete oral care for the whole family. Also for oral hygiene. Register easily online!",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "berglustlaan@dentalclinics.nl"
+  ],
+  "practice_photo": "https://www.dentalclinics.nl/wp-content/uploads/2018/11/Ontwerp-zonder-titel-12.png",
+  "rating": 9.2,
+  "reviews": 158,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-clinics-rotterdam-berglustlaan-rotterdam-182441",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.H.J. van Dam",
+    "big_number": "39066801702",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-08-06T08:02:10Z"
+ },
+ "hof van hoornwijck|rijswijk": {
+  "practice": "Hof van Hoornwijck",
+  "city": "Rijswijk",
+  "website": "https://www.hoornwijck-kliniek.nl",
+  "website_title": "Tandartspraktijk Rijswijk - Hof van Hoornwijck",
+  "description": "Wij staan open voor nieuwe patiënten. Bel ons direct of maak online uw afspraak! Persoonlijke aandacht · De beste tandartsen · Ruime, moderne praktijk Services: algemene tandheelkunde, Facings, Tanden Bleken, Mondhygieniste.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@hoornwijck-kliniek.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-hof-van-hoornwijck-kliniek-voor-tandheelkunde-rijswijk-3043388",
+  "opening_hours": "Ma 08:00-16:30, Di 08:00-16:30, Wo 08:00-16:30, Do 08:00-16:30, Vr 08:00-16:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "16:30",
+  "team": [
+   {
+    "name": "Spoedgeval Complimenten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Paolo Roberto Baglietto",
+    "title": "tandarts",
+    "photo": "https://www.hoornwijck-kliniek.nl/runtime/images/171/400x400/P._Baglietto.JPG",
+    "big_number": "19047056402"
+   },
+   {
+    "name": "Back Office",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Romy Decates",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": "49930401002"
+   },
+   {
+    "name": "Fehmina Yusaf",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Estefania Leal Mejia",
+    "title": "preventieassistent",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Receptionist Astrid Degenhart",
+    "title": "preventieassistent",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Receptionist Marcia Haarman",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Enne van Ham",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Spoedgeval Complimenten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Paolo Roberto Baglietto",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "P.R. Baglietto",
+    "big_number": "19047056402",
+    "note": "actieve BIG-registratie als Tandarts",
+    "site_big_number": "19047056402"
+   },
+   {
+    "name": "Back Office",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Romy Decates",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.R. Decates",
+    "big_number": "49930401002",
+    "note": "actieve BIG-registratie als Tandarts",
+    "site_big_number": "49930401002"
+   },
+   {
+    "name": "Fehmina Yusaf",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Receptionist Marcia Haarman",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Enne van Ham",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "E. van Ham",
+    "big_number": "89021325602",
+    "note": "actieve BIG-registratie als Tandarts"
+   }
+  ],
+  "enriched_at": "2026-08-06T08:02:31Z"
+ },
+ "mondzorgkliniek oud-beijerland|oud-beijerland": {
+  "practice": "Mondzorgkliniek Oud-Beijerland",
+  "city": "Oud-Beijerland",
+  "website": "https://www.mondzorgprofessionals.nl",
+  "website_title": "Tandarts Oud-Beijerland | Mondzorgprofessionals",
+  "description": "Tandarts Oud-Beijerland ✓ Geen wachtlijst ✓ Beste mondzorg ✓ Goede reviews ✓ Géén wachtlijst ✓ Aandacht voor angstpatiënten. | T: 0181-729000",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@mondzorgprofessionals.nl"
+  ],
+  "practice_photo": "https://www.mondzorgprofessionals.nl/wp-content/uploads/2026/03/0E2A7501-1.jpg",
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-mondzorg-en-implantologiekliniek-oud-beijerland-oud-beijerland-209433",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Informatie Holistische",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Informatie Holistische",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-08-06T08:02:41Z"
  }
 }

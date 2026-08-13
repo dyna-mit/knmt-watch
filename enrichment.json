@@ -12683,5 +12683,188 @@
    }
   ],
   "enriched_at": "2026-08-06T08:02:41Z"
+ },
+ "dental esthetic pure b.v.|vlaardingen": {
+  "practice": "Dental Esthetic Pure B.V.",
+  "city": "Vlaardingen",
+  "website": "https://www.dentalestheticpure.nl",
+  "website_title": "Dental Esthetic Pure | Tandartspraktijk Vlaardingen",
+  "description": "Dental Esthetic Pure is dé Tandartspraktijk te Vlaardingen, met persoonlijke, innovatieve mondzorg volgens de nieuwste kwaliteits- en hygiënerichtlijnen.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "rekening@infomedics.nl"
+  ],
+  "practice_photo": "https://www.dentalestheticpure.nl/wp-content/uploads/2023/01/pexels-nadezhda-moryak-7800568-300x200.jpg",
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-esthetic-pure-vlaardingen-10012226",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Dental Esthetic Pure",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Ragers Flossdraad Preventie",
+    "title": "preventieassistent",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Ven Ik",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Lana Lipman",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Tandheelkunde Slijtage",
+    "title": "preventieassistent",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Dental Esthetic Pure",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Ven Ik",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "3 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   },
+   {
+    "name": "Lana Lipman",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-08-13T06:54:20Z"
+ },
+ "tandartspraktijk een tandje hoger|krimpen aan den ijssel": {
+  "practice": "Tandartspraktijk Een Tandje Hoger",
+  "city": "Krimpen aan den IJssel",
+  "website": "https://tandartsregister.nl",
+  "website_title": "Een Tandje Hoger | Kwaliteitsregister Tandartsen",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": 9.4,
+  "reviews": 16,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-een-tandje-hoger-krimpen-aan-den-ijssel-10081536",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-08-13T06:54:27Z"
+ },
+ "tandarts noor|voorhout": {
+  "practice": "Tandarts Noor",
+  "city": "Voorhout",
+  "website": "https://www.tandartsnoor.nl",
+  "website_title": "Welkom bij Tandarts Noor, een onafhankelijke tandarts in Voorhout.",
+  "description": "Onder leiding van tandarts Noortje Akveld, bieden wij toegankelijke tandheelkunde met focus op persoonlijke aandacht en integere mondzorg.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartsnoor.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartsenpraktijk-componistenlaan-voorhout-3038668",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "De Mens Achter",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Bibliotheek Bollenstreek",
+    "title": "tandarts",
+    "photo": "https://www.tandartsnoor.nl/wp-content/uploads/2025/06/Tandarts-in-de-Bollenstreek-De-bibliotheek-Bollenstreek-384x356.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Noortje Akveld",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Meetweken Mondgezondheid",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "De Mens Achter",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Bibliotheek Bollenstreek",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Noortje Akveld",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "N.A.E. Akveld",
+    "big_number": "69909786402",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Meetweken Mondgezondheid",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-08-13T06:54:44Z"
  }
 }

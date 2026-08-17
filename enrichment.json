@@ -12866,5 +12866,26 @@
    }
   ],
   "enriched_at": "2026-08-13T06:54:44Z"
+ },
+ "tandartsenpraktijk dental care 4 you|'s-gravenhage": {
+  "practice": "Tandartsenpraktijk Dental Care 4 You",
+  "city": "'s-Gravenhage",
+  "website": "https://dentalcare4you.nl",
+  "website_title": "Dental Care 4 You â Tandartspraktijk Den Haag",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-dental-care-4-you-den-haag-3042932",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-08-17T05:57:59Z"
  }
 }

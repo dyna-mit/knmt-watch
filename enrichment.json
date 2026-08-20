@@ -12887,5 +12887,123 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-08-17T05:57:59Z"
+ },
+ "dental clinics rotterdam pleinweg|rotterdam": {
+  "practice": "Dental Clinics Rotterdam Pleinweg",
+  "city": "Rotterdam",
+  "website": "https://www.dentalclinics.nl",
+  "website_title": "Tandarts Rotterdam-Zuid - Dental Clinics Rotterdam Pleinweg",
+  "description": "Op zoek naar een nieuwe tandarts in Rotterdam-Zuid? Onze behandelaren staan voor je klaar. Bij Dental Clinics zorgen we graag voor jouw lach!",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "pleinweg@dentalclinics.nl"
+  ],
+  "practice_photo": "https://www.dentalclinics.nl/wp-content/uploads/2022/01/DC-banner-Pleinweg.png",
+  "rating": 9.1,
+  "reviews": 96,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-clinics-rotterdam-pleinweg-rotterdam-3054159",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.H.J. van Dam",
+    "big_number": "39066801702",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-08-20T05:53:33Z"
+ },
+ "mondzorg bogaard|rijswijk (zuid-holland)": {
+  "practice": "Mondzorg Bogaard",
+  "city": "Rijswijk (Zuid-Holland)",
+  "website": "https://www.mondzorgbogaard.nl",
+  "website_title": "Even geduldâ¦",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-mondzorg-bogaard-rijswijk-10082177",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-08-20T05:53:41Z"
  }
 }

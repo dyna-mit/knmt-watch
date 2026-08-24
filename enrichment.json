@@ -13005,5 +13005,72 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-08-20T05:53:41Z"
+ },
+ "tandheelkundig centrum frederikstraat|'s-gravenhage": {
+  "practice": "Tandheelkundig Centrum Frederikstraat",
+  "city": "'s-Gravenhage",
+  "website": "https://tandartsregister.nl",
+  "website_title": "Tandheelkundig Centrum Frederikstraatâ¦ | Kwaliteitsregister Tandartsen",
+  "description": "Bekijk Tandheelkundig Centrum Frederikstraat in âsâGravenhage. Tandartsen, praktijkgegevens en locatie Frederikstraat 827. Neem contact op of bekijk deâ¦",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": 8.7,
+  "reviews": 19,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandheelkundig-centrum-frederikstraat-den-haag-den-haag-181112/waardering",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Al Hassani",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Tandheelkundig Centrum Frederikstraatâ",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Praktijkgegevens Loading",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Al Hassani",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "A. Hassani Katehsari",
+    "big_number": "69931759902",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Tandheelkundig Centrum Frederikstraatâ",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Praktijkgegevens Loading",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-08-24T06:01:18Z"
  }
 }

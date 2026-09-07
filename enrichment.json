@@ -11196,5 +11196,344 @@
    }
   ],
   "enriched_at": "2026-08-24T06:01:18Z"
+ },
+ "tandartsen nesciohove|zoetermeer": {
+  "practice": "Tandartsen Nesciohove",
+  "city": "Zoetermeer",
+  "website": "https://tandartsennesciohove.nl",
+  "website_title": "Tandarts Zoetermeer - Welkom Bij Tandartsen Nesciohove",
+  "description": "Op zoek naar een tandarts in Zoetermeer? Tandartsen Nesciohove helpen u graag aan een stralende glimlach.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartsennesciohove.nl"
+  ],
+  "practice_photo": null,
+  "rating": 6.8,
+  "reviews": 6,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartsen-nesciohove-zoetermeer-10007552",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Zoetermeer Beoordelingen",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Alaa Kazah",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "N.Djouya Mondhygiëniste",
+    "title": "tandarts",
+    "photo": "https://tandartsennesciohove.nl/wp-content/uploads/2025/10/Mondhygienist-N.Djouya-320x480.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Beschikbaar Den Haag",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kindertandarts Angst",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Zoetermeer Waar",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "M.Harps Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Zoetermeer Beoordelingen",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Alaa Kazah",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "N.Djouya Mondhygiëniste",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Beschikbaar Den Haag",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kindertandarts Angst",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Zoetermeer Waar",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "M.Harps Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-07T10:32:58Z"
+ },
+ "mondzorg hellevoet|hellevoetsluis": {
+  "practice": "Mondzorg Hellevoet",
+  "city": "Hellevoetsluis",
+  "website": "https://www.mondzorghellevoet.nl",
+  "website_title": "Mondzorg Hellevoet | Tandarts in Hellevoetsluis",
+  "description": "Mondzorg Hellevoet biedt algemene én specialistische mondzorg vanuit één vertrouwd team — van controle tot implantologie, orthodontie en parodontologie.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@mondzorghellevoet.nl"
+  ],
+  "practice_photo": null,
+  "rating": 6.7,
+  "reviews": 4,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-smith-dirkx-mondzorg-hellevoetsluis-10012357",
+  "opening_hours": "Ma 07:50-16:00, Di 07:50-16:00, Wo 07:50-16:00, Do 07:50-16:00, Vr 10:00-18:00",
+  "has_weekend": false,
+  "has_evening": true,
+  "latest_close": "18:00",
+  "team": [
+   {
+    "name": "H. Halaby Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "H. Halaby Mondhygiëniste Teamfoto",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "M. Loeve Preventie",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Bij de Vaate Preventie",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "H. Halaby Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "H. Halaby Mondhygiëniste Teamfoto",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "M. Loeve Preventie",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Bij de Vaate Preventie",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-07T10:33:12Z"
+ },
+ "tp van der heide|bodegraven & linschoten": {
+  "practice": "TP van der Heide",
+  "city": "Bodegraven & Linschoten",
+  "website": "https://tandartspraktijkvanderheide.nl",
+  "website_title": "Tandartspraktijk Van der Heide: Uw tandarts in Bodegraven",
+  "description": "Dé tandarts in Bodegraven en Linschoten met alle mondzorg onder één dak. Onze praktijk biedt u tandheelkunde, implantologie, mondhygiëne & orthodontie.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartspraktijkvanderheide.nl"
+  ],
+  "practice_photo": "https://tandartspraktijkvanderheide.nl/wp-content/uploads/2019/04/Tandartspraktijk-Van-der-Heide-LR-20.jpg",
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-van-der-heide-bodegraven-209450",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Margreet Linting Balie-assistent",
+    "title": "tandarts",
+    "photo": "https://tandartspraktijkvanderheide.nl/wp-content/uploads/elementor/thumbs/IMG_8994-scaled-r0e3osueh6fuhrmxhpig4ldej6h8252j5hts7z4jj4.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Arda Evers",
+    "title": "praktijkmanager",
+    "photo": "https://tandartspraktijkvanderheide.nl/wp-content/uploads/2021/01/Arda-Evers-scaled.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Jan Tiesinga",
+    "title": "tandarts",
+    "photo": "https://tandartspraktijkvanderheide.nl/wp-content/uploads/2026/08/Jan-e1785861150336-1024x1024.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Lisanne Vroege",
+    "title": "tandarts",
+    "photo": "https://tandartspraktijkvanderheide.nl/wp-content/uploads/2026/08/lisanne-scaled-e1785860087540-1024x1024.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Bodegraven Willem",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Willem de Zwijgerstraat",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Laan van Overvliet",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Linschoten Laan",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Margreet Linting Balie-assistent",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Jan Tiesinga",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "J.J.W. Tiesinga",
+    "big_number": "69916361402",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Lisanne Vroege",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Bodegraven Willem",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "B.M.J.M. Willemsen",
+    "big_number": "79024943102",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Willem de Zwijgerstraat",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Laan van Overvliet",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Linschoten Laan",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "A.L.N. van der Laan",
+    "big_number": "69910526202",
+    "note": "actieve BIG-registratie als Tandarts"
+   }
+  ],
+  "enriched_at": "2026-09-07T10:33:32Z"
  }
 }

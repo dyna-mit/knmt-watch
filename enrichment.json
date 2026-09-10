@@ -11535,5 +11535,256 @@
    }
   ],
   "enriched_at": "2026-09-07T10:33:32Z"
+ },
+ "tandartspraktijk waldent|'s-gravenhage": {
+  "practice": "Tandartspraktijk Waldent",
+  "city": "'s-gravenhage",
+  "website": "https://waldent.nl",
+  "website_title": "Tandartspraktijk Waldent Den Haag Bezuidenhout | Persoonlijke mondzorg",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": 9.5,
+  "reviews": 48,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-waldent-den-haag-10002884",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Haag Bezuidenhout",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Haag Bezuidenhout",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-10T09:55:15Z"
+ },
+ "tandartsencentrum dordrecht|dordrecht": {
+  "practice": "Tandartsencentrum Dordrecht",
+  "city": "Dordrecht",
+  "website": "https://www.tandheelkundedordrecht.nl",
+  "website_title": "Tandheelkundig Centrum Dordrecht | Uw tandarts in de buurt",
+  "description": "Onze tandartspraktijk beschikt over meerdere moderne behandelkamers en is zeer toegankelijk voor mindervaliden en mensen in een rolstoel.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandheelkunde.eu"
+  ],
+  "practice_photo": "https://www.tandheelkundedordrecht.nl/themes/dordrecht/images/social_card.jpg",
+  "rating": 10,
+  "reviews": 1,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-s-c-a-de-groot-dordrecht-182714",
+  "opening_hours": "Ma 08:30-16:30, Di 08:30-16:30, Wo 08:30-16:30, Do 08:30-16:30, Vr 08:30-16:30",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "16:30",
+  "team": [
+   {
+    "name": "Esther Balie",
+    "title": "balieassistent",
+    "photo": "https://www.tandheelkundedordrecht.nl/previews/2026/1/5/media_1002_774541_w40_h60_crop.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Tessa Balie",
+    "title": "balieassistent",
+    "photo": "https://www.tandheelkundedordrecht.nl/previews/2026/1/5/media_1002_774539_w40_h60_crop.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Kaakchirurgie Preventie",
+    "title": "kaakchirurg",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Tandheelkundig Centrum Dordrecht",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Koninklijke Nederlandse Maatschappij",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Kaakchirurgie Preventie",
+    "title": "kaakchirurg",
+    "expected_group": "kaakchirurg",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "no_title_check",
+    "note": "titel vereist geen BIG-registratie"
+   },
+   {
+    "name": "Tandheelkundig Centrum Dordrecht",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Koninklijke Nederlandse Maatschappij",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-10T09:55:26Z"
+ },
+ "thc van someren brand|zevenhuizen": {
+  "practice": "THC van Someren Brand",
+  "city": "Zevenhuizen",
+  "website": "https://vansomerenbrand.nl",
+  "website_title": "Onze Praktijk – Tandheelkundig Centrum van Someren Brand",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@vansomerenbrand.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandheelkundig-centrum-van-someren-brand-zevenhuizen-3042645",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Jelmer van Someren Brand",
+    "title": "tandarts",
+    "photo": "https://vansomerenbrand.nl/wp-content/uploads/2023/09/Profiel-foto-Jelmer.jpg",
+    "big_number": "69066302202"
+   },
+   {
+    "name": "Kirstin Alma Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://vansomerenbrand.nl/wp-content/uploads/2023/09/Profiel-foto-Kirstin-1152x1536.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Naomi Nelles Mondhygiëniste",
+    "title": "tandarts",
+    "photo": "https://vansomerenbrand.nl/wp-content/uploads/2023/12/Profiel-foto-Naomi-Nelles-768x1024.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Cathlien Voorbrood Allround",
+    "title": "tandarts",
+    "photo": "https://vansomerenbrand.nl/wp-content/uploads/2023/09/Profiel-foto-Cathlien-1152x1536.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Irene van Dam",
+    "title": "tandarts",
+    "photo": "https://vansomerenbrand.nl/wp-content/uploads/2026/05/Irene-van-dam-1152x1536.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Maaike van Laviere Office",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Jelmer van Someren Brand",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "J.W. van Someren Brand",
+    "big_number": "69066302202",
+    "note": "actieve BIG-registratie als Tandarts",
+    "site_big_number": "69066302202"
+   },
+   {
+    "name": "Kirstin Alma Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Naomi Nelles Mondhygiëniste",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Cathlien Voorbrood Allround",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Irene van Dam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Maaike van Laviere Office",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-10T09:55:47Z"
+ },
+ "tandartspraktijk s.cheung|rotterdam": {
+  "practice": "Tandartspraktijk S.Cheung",
+  "city": "Rotterdam",
+  "website": "https://www.tandartspraktijkcheung.nl",
+  "website_title": "Tandarts Rotterdam - Tandartspraktijk Cheung",
+  "description": "Tandarts in Rotterdam: Zoekt u een tandarts in Rotterdam? Wij zijn dé specialist op het gebied van mondzorg in Rotterdam.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tandartspraktijkcheung.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-clinics-rotterdam-ommoord-rotterdam-182335/waardering/tandarts-cheung-is-heel-betrokken-2eca46f9c7d23f32982f1305b25b65d2",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-09-10T09:55:55Z"
  }
 }

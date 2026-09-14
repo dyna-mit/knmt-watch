@@ -11786,5 +11786,192 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-09-10T09:55:55Z"
+ },
+ "dental clinics den haag|den haag": {
+  "practice": "Dental Clinics Den Haag",
+  "city": "Den Haag",
+  "website": "https://www.dentalclinics.nl",
+  "website_title": "Dentist Den Haag - Dental Practice Dental Clinics Den Haag",
+  "description": "Looking for the best dentist in Den Haag, where you don't pay more than necessary? You are most welcome. Make an appointment right away or get in touch.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": "https://www.dentalclinics.nl/wp-content/uploads/2016/02/DC-Den-Haag-LvM-39.jpg",
+  "rating": 9.3,
+  "reviews": 242,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-clinics-den-haag-laan-van-meerdervoort-den-haag-3040988",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.H.J. van Dam",
+    "big_number": "39066801702",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-14T10:50:30Z"
+ },
+ "mondzorg dental beauty|'s-gravenhage": {
+  "practice": "Mondzorg Dental Beauty",
+  "city": "'s-Gravenhage",
+  "website": "https://mondzorgdentalbeauty.nl",
+  "website_title": "Dé Tandarts en mondhygiënist in Den Haag.",
+  "description": "Hét adres voor een goede tandarts en mondhygiënist in Den Haag. Wij staan garant voor perfecte mondzorg. Style your smile! Lees meer...",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@mondzorgdentalbeauty.nl"
+  ],
+  "practice_photo": "https://mondzorgdentalbeauty.nl/wp-content/uploads/2020/05/Digitale-Handtekening-Logo.png",
+  "rating": 9.7,
+  "reviews": 5,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/mondhygienistenpraktijk-mondzorg-dental-beauty-den-haag-3045016",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Andre Schreuders",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Zeta Kupatdze Allround",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Andre Schreuders",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Zeta Kupatdze Allround",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-14T10:50:37Z"
+ },
+ "tandartspraktijk mathenesse|rotterdam": {
+  "practice": "Tandartspraktijk Mathenesse",
+  "city": "Rotterdam",
+  "website": "https://tpmathenesse.nl",
+  "website_title": "Tandarts Rotterdam | Tandartspraktijk Mathenesse",
+  "description": "Op zoek naar een tandarts in Rotterdam? Tandartspraktijk Mathenesse biedt persoonlijke, moderne en pijnvrije mondzorg. Plan direct uw afspraak.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tpmathenesse.nl"
+  ],
+  "practice_photo": "https://tpmathenesse.nl/wp-content/uploads/2026/07/fbimg.avif",
+  "rating": 9.2,
+  "reviews": 7,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-mathenesse-rotterdam-181651",
+  "opening_hours": "Ma 09:15-17:00, Di 09:15-17:00, Wo 09:15-17:00, Do 09:15-17:00, Vr 09:15-15:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "17:00",
+  "team": [
+   {
+    "name": "Uitvouwen Periodieke",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Uitvouwen Periodieke",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-14T10:50:44Z"
  }
 }

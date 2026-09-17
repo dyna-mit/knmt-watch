@@ -11973,5 +11973,262 @@
    }
   ],
   "enriched_at": "2026-09-14T10:50:44Z"
+ },
+ "dental clinics bergschenhoek parkzoom|bergschenhoek": {
+  "practice": "Dental Clinics Bergschenhoek Parkzoom",
+  "city": "Bergschenhoek",
+  "website": "https://www.dentalclinics.nl",
+  "website_title": "Tandartspraktijk Dental Clinics Bergschenhoek Parkzoom",
+  "description": "Op zoek naar een nieuwe tandarts? Onze behandelaren staan voor je klaar. Bij Dental Clinics Bergschenhoek - Parkzoom zorgen we voor je lach!",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "bergschenhoek-parkzoom@dentalclinics.nl"
+  ],
+  "practice_photo": "https://www.dentalclinics.nl/wp-content/uploads/2013/03/dc-bergschenhoek-01-1-568x379.jpg",
+  "rating": 9.2,
+  "reviews": 386,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-clinics-bergschenhoek-parkzoom-bergschenhoek-3040985",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.H.J. van Dam",
+    "big_number": "39066801702",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-17T10:10:19Z"
+ },
+ "dental clinics gouda greenline|gouda": {
+  "practice": "Dental Clinics Gouda Greenline",
+  "city": "Gouda",
+  "website": "https://www.dentalclinics.nl",
+  "website_title": "Dentist Gouda - Dental Clinics Gouda",
+  "description": "Your dentist in Gouda for complete oral care. Call for an appointment: 0182 - 543 000 (Greenline) or 0182 - 550 366 (Burghvliet) or read more on the website.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": "https://www.dentalclinics.nl/wp-content/uploads/2017/03/DC-Gouda-20.jpg",
+  "rating": 9.2,
+  "reviews": 648,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-dental-clinics-gouda-greenline-gouda-182093",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Aandoeningen Eten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Dental Clinics Leeuwarden",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Reinout van Dam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.H.J. van Dam",
+    "big_number": "39066801702",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Dental Clinics",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kinderen Patiënteninformatie Footer",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-17T10:10:26Z"
+ },
+ "hamza|den haag": {
+  "practice": "Hamza",
+  "city": "Den Haag",
+  "website": "https://tandartsregister.nl",
+  "website_title": "D. Hamza | Kwaliteitsregister Tandartsen",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": 8.4,
+  "reviews": 67,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/ziekenhuis-hagaziekenhuis-den-haag-den-haag-110329/specialisten",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Parodontoloog Kindertandarts Angstbegeleiding",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Gnatholoog Gehandicaptenzorg Maxillofaciale",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Klikgebit Kleine",
+    "title": "kaakchirurg",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Parodontoloog Kindertandarts Angstbegeleiding",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Gnatholoog Gehandicaptenzorg Maxillofaciale",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Klikgebit Kleine",
+    "title": "kaakchirurg",
+    "expected_group": "kaakchirurg",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "no_title_check",
+    "note": "titel vereist geen BIG-registratie"
+   }
+  ],
+  "enriched_at": "2026-09-17T10:10:36Z"
  }
 }

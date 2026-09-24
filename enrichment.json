@@ -12230,5 +12230,269 @@
    }
   ],
   "enriched_at": "2026-09-17T10:10:36Z"
+ },
+ "tandheelkundig centrum wij|waddinxveen": {
+  "practice": "Tandheelkundig Centrum Wij",
+  "city": "Waddinxveen",
+  "website": "https://www.tcw-waddinxveen.nl",
+  "website_title": "Voor een stralend gebit!",
+  "description": "",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tcw-waddinxveen.nl"
+  ],
+  "practice_photo": "https://www.tcw-waddinxveen.nl/assets/img/logo-tcw.png",
+  "rating": 9.1,
+  "reviews": 299,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandheelkundig-centrum-wij-in-waddinxveen-waddinxveen-3061170",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Waddinxveen Alle",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Waddinxveen Alle",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "2 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-24T10:13:37Z"
+ },
+ "tandheelkundig centrum triangel|waddinxveen": {
+  "practice": "Tandheelkundig Centrum Triangel",
+  "city": "Waddinxveen",
+  "website": "https://tct-waddinxveen.nl",
+  "website_title": "Tandarts Waddinxveen | Tandheelkundig Centrum Triangel",
+  "description": "Tandarts in Waddinxveen nodig? Kies voor persoonlijke mondzorg en hoogwaardige behandelingen bij TCT Waddinxveen. Bel naar ☎️ 0182 717100",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tct-waddinxveen.nl"
+  ],
+  "practice_photo": "https://tct-waddinxveen.nl/wp-content/uploads/2026/07/og-image-tct.avif",
+  "rating": 9.1,
+  "reviews": 311,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandheelkundig-centrum-triangel-waddinxveen-10017167",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Gegevens Parklaan",
+    "title": "tandarts",
+    "photo": "https://tct-waddinxveen.nl/wp-content/themes/triangel/assets/Pinpoint.svg",
+    "big_number": null
+   },
+   {
+    "name": "Tandheelkundig Centrum Triangel",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Park Triangel",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Gegevens Parklaan",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Tandheelkundig Centrum Triangel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Park Triangel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-24T10:13:51Z"
+ },
+ "tandheelkundig centrum vitalis|baarn": {
+  "practice": "Tandheelkundig Centrum Vitalis",
+  "city": "Baarn",
+  "website": "https://www.vitalisalphen.nl",
+  "website_title": "Vitalis | Tandheelkundig centrum - Vitalis Centrum voor gezondheid",
+  "description": "Vitalis is een centrum voor gezondheid in de wijk Kerk en Zanen - Alphen aan den Rijn",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandheelkundig-centrum-vitalis-alphen-aan-den-rijn-181308/specialisten",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Tandheelkundig Centrum Vitalis",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Van den Akker",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Tandheelkundig Centrum Vitalis",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Van den Akker",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-24T10:14:00Z"
+ },
+ "m.j. van wijck|leiden": {
+  "practice": "M.J. van Wijck",
+  "city": "Leiden",
+  "website": "https://vergelijkmondzorg.nl",
+  "website_title": "Tandarts M.J. Van Wijck in Leiden | VergelijkMondzorg.nl",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "M.J. Van Wijck",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "M.J. Van Wijck Routebeschrijving",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Van der Helmlaan",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "M.J. Van Wijck Van",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Previous Next Omschrijving",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "M.J. Van Wijck Deze",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "M.J. Van Wijck",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "2 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   },
+   {
+    "name": "M.J. Van Wijck Routebeschrijving",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Van der Helmlaan",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "M.J. Van Wijck Van",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Previous Next Omschrijving",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "M.J. Van Wijck Deze",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-24T10:14:19Z"
  }
 }

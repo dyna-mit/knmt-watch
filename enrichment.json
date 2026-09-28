@@ -12494,5 +12494,58 @@
    }
   ],
   "enriched_at": "2026-09-24T10:14:19Z"
+ },
+ "tandartsenpraktijk appelenburg|alphen aan den rijn": {
+  "practice": "Tandartsenpraktijk Appelenburg",
+  "city": "Alphen aan den Rijn",
+  "website": "https://appelenburg.com",
+  "website_title": "Tandartspraktijk in Alphen aan den Rijn | Appelenburg",
+  "description": "Tandartspraktijk in Alphen aan den Rijn. Nieuwe patiënten welkom bij Appelenburg voor persoonlijke tandheelkundige zorg. Maak vandaag nog een afspraak.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "balie@appelenburg.com"
+  ],
+  "practice_photo": null,
+  "rating": 9.7,
+  "reviews": 1,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartsenpraktijk-appelenburg-alphen-aan-den-rijn-181482",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Maran Bikker Mondhygieniste",
+    "title": "mondhygienist",
+    "photo": "https://appelenburg.com/wp-content/uploads/2025/07/Maran-3421-scaled.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Raela Kooiman Mondhygieniste",
+    "title": "mondhygienist",
+    "photo": "https://appelenburg.com/wp-content/uploads/2025/07/Raela-3462-scaled.jpg",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Maran Bikker Mondhygieniste",
+    "title": "mondhygienist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Raela Kooiman Mondhygieniste",
+    "title": "mondhygienist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-09-28T11:51:34Z"
  }
 }

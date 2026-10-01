@@ -12547,5 +12547,107 @@
    }
   ],
   "enriched_at": "2026-09-28T11:51:34Z"
+ },
+ "cleyburch tandartsen|noordwijk": {
+  "practice": "Cleyburch Tandartsen",
+  "city": "Noordwijk",
+  "website": "https://www.cleyburchtandartsen.nl",
+  "website_title": "Cleyburch tandartsen",
+  "description": "Gezond voor uw mond. Welkom in onze moderne en geavanceerde praktijk. Tandartscontrole en -behandelingen, implantaten, orthodontie, inlays, facings, bleken, tanderosie, tandvleesontsteking. Wat kunnen we voor u doen?",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@cleyburchtandartsen.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Mandy Ik",
+    "title": "tandarts",
+    "photo": "https://www.cleyburchtandartsen.nl/lcms2/RESIZE/w120-h9999-c120x120-q90/bestanden/artikelen/5/51_cleyburch-ervaringen-mandy.jpg?1525262178=",
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Mandy Ik",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "26 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   }
+  ],
+  "enriched_at": "2026-10-01T11:44:55Z"
+ },
+ "tandartsenpraktijk alexander|rotterdam": {
+  "practice": "Tandartsenpraktijk Alexander",
+  "city": "Rotterdam",
+  "website": null,
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-10-01T11:45:02Z"
+ },
+ "pure esthetics bv|wateringen": {
+  "practice": "Pure Esthetics BV",
+  "city": "Wateringen",
+  "website": null,
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-10-01T11:45:10Z"
+ },
+ "total dental tandartsen|dordrecht": {
+  "practice": "Total Dental Tandartsen",
+  "city": "Dordrecht",
+  "website": null,
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-10-01T11:45:17Z"
  }
 }

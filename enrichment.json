@@ -12691,5 +12691,26 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-10-05T12:26:24Z"
+ },
+ "thiendenland tandheelkundige praktijk|schoonhoven": {
+  "practice": "Thiendenland Tandheelkundige Praktijk",
+  "city": "Schoonhoven",
+  "website": "https://www.thiendenland.nl",
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandheelkundige-praktijk-thiendenland-schoonhoven-3033507",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-10-08T12:10:10Z"
  }
 }

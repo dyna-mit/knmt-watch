@@ -12712,5 +12712,191 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-10-08T12:10:10Z"
+ },
+ "tandent bergschenhoek bv|bergschenhoek": {
+  "practice": "Tandent Bergschenhoek BV",
+  "city": "Bergschenhoek",
+  "website": "https://www.tandent.nl",
+  "website_title": "Tandarts Bergschenhoek | Welkom bij TanDent",
+  "description": "Tandarts Bergschenhoek nodig? Van harte welkom bij TanDent. Onze praktijk is gevestigd in Bergschenhoek in Lansingerland. Meld u direct aan.",
+  "kvk": "92108288",
+  "kvk_url": "https://www.kvk.nl/zoeken/?source=all&q=92108288",
+  "emails": [
+   "infobhoek@tandent.nl",
+   "infofs@tandent.nl",
+   "infohlem@tandent.nl",
+   "infordam@tandent.nl"
+  ],
+  "practice_photo": "https://www.tandent.nl/wp-content/uploads/2022/12/SLSJ-Tan-Lie-2-863x1024.jpg",
+  "rating": 9.5,
+  "reviews": 2,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandent-kliniek-voor-tandheelkunde-locatie-bergschenhoek-bergschenhoek-10018853/waardering",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Bergschenhoek Direct",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Bergschenhoek Van",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Bergschenhoek Bent",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Siham Preventie",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Gesloten Sfeerimpressie",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Haarlem Schalkwijk Aangesloten",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Bergschenhoek Direct",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Bergschenhoek Van",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Bergschenhoek Bent",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Siham Preventie",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Gesloten Sfeerimpressie",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Haarlem Schalkwijk Aangesloten",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-10-12T13:20:51Z"
+ },
+ "tandartspraktijk strevelsweg|rotterdam": {
+  "practice": "Tandartspraktijk Strevelsweg",
+  "city": "Rotterdam",
+  "website": null,
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-strevelsweg-rotterdam-184374/specialisten",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-10-12T13:20:58Z"
+ },
+ "mondzorg poeldijk|kwintsheul": {
+  "practice": "Mondzorg Poeldijk",
+  "city": "Kwintsheul",
+  "website": "https://www.mondzorgpoeldijk.nl",
+  "website_title": "Home",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": "Vr 08:30-12:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "12:00",
+  "team": [
+   {
+    "name": "Lopes Alexandre",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": "09909225202"
+   },
+   {
+    "name": "Magalhaes Carvalho",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": "09930044502"
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Lopes Alexandre",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig",
+    "site_big_number": "09909225202"
+   },
+   {
+    "name": "Magalhaes Carvalho",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig",
+    "site_big_number": "09930044502"
+   }
+  ],
+  "enriched_at": "2026-10-12T13:21:09Z"
  }
 }

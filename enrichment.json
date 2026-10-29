@@ -12898,5 +12898,144 @@
    }
   ],
   "enriched_at": "2026-10-12T13:21:09Z"
+ },
+ "tandartspraktijk waldent|den haag": {
+  "practice": "Tandartspraktijk Waldent",
+  "city": "Den Haag",
+  "website": "https://waldent.nl",
+  "website_title": "Tandartspraktijk Waldent Den Haag Bezuidenhout | Persoonlijke mondzorg",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Haag Bezuidenhout",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Haag Bezuidenhout",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-10-29T11:40:47Z"
+ },
+ "praktijk voor tandheelkunde oranjelaan|bodegraven": {
+  "practice": "Praktijk voor Tandheelkunde Oranjelaan",
+  "city": "Bodegraven",
+  "website": null,
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": 9.2,
+  "reviews": 1,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-oranjelaan-bodegraven-3040854",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-10-29T11:40:56Z"
+ },
+ "dutand tandheelkundig centrum|vught": {
+  "practice": "DuTand Tandheelkundig Centrum",
+  "city": "Vught",
+  "website": "https://www.dutand.nl",
+  "website_title": "Home - DuTand",
+  "description": "DuTand biedt hoogwaardige tandheelkunde zorg. Wij verwelkomen nieuwe patiëntnen en streven naar een gezonde, stralende glimlach voor iedereen.",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@stoptandartsangst.nl"
+  ],
+  "practice_photo": "https://www.dutand.nl/wp-content/uploads/2025/03/11.jpg",
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Henry Dunantweg",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Kosten Materiaal",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Adresgegevens Henry Dunantweg",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Rijn Tel",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Henry Dunantweg",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Kosten Materiaal",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Adresgegevens Henry Dunantweg",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Rijn Tel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "6 naamgenoten met Tandarts-registratie; verifieer handmatig"
+   }
+  ],
+  "enriched_at": "2026-10-29T11:41:09Z"
  }
 }

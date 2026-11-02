@@ -17283,5 +17283,170 @@
    }
   ],
   "enriched_at": "2026-10-29T11:41:09Z"
+ },
+ "tandheelkundig centrum de rade|den haag": {
+  "practice": "Tandheelkundig Centrum De Rade",
+  "city": "Den Haag",
+  "website": "https://tcderade.nl",
+  "website_title": "Tandheelkundig Centrum De Rade | Tandarts Den Haag – Tandarts Den Haag",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@tcderade.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": "Ma 09:00-17:00, Di 09:00-17:00, Wo 09:00-17:00, Do 09:00-17:00, Vr 09:00-17:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "17:00",
+  "team": [
+   {
+    "name": "Den Haag",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Mondhygiëniste Jasmien",
+    "title": "mondhygiënist",
+    "photo": "https://tcderade.nl/wp-content/uploads/2026/06/mondhygieniste-Jasmien-e1781802234117.webp",
+    "big_number": null
+   },
+   {
+    "name": "Mondhygiëniste Ekram",
+    "title": "mondhygiënist",
+    "photo": "https://tcderade.nl/wp-content/uploads/2026/02/Framesinmotion.nl-39.jpg_compressed.webp#274",
+    "big_number": null
+   },
+   {
+    "name": "Mondhygiëniste Majda",
+    "title": "mondhygiënist",
+    "photo": "https://tcderade.nl/wp-content/uploads/2026/02/Framesinmotion.nl-39.jpg_compressed.webp#274",
+    "big_number": null
+   },
+   {
+    "name": "Hi Hallo",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Tandheelkundig Centrum De",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Brian Mondhygiëniste Jasmien",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Mondhygiëniste Ekram Mondhygiëniste",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "I.O. Imane Tandtechnieker Martijn",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Open Chat",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Den Haag",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Mondhygiëniste Jasmien",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Mondhygiëniste Ekram",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Mondhygiëniste Majda",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Hi Hallo",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Tandheelkundig Centrum De",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Brian Mondhygiëniste Jasmien",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Mondhygiëniste Ekram Mondhygiëniste",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "I.O. Imane Tandtechnieker Martijn",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Open Chat",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-11-02T13:43:53Z"
  }
 }

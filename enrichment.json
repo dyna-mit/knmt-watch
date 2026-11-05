@@ -17448,5 +17448,26 @@
    }
   ],
   "enriched_at": "2026-11-02T13:43:53Z"
+ },
+ "tandartspraktijk amerongen|amerongen": {
+  "practice": "Tandartspraktijk Amerongen",
+  "city": "Amerongen",
+  "website": "https://www.tandartspraktijkamerongen.nl",
+  "website_title": null,
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": "https://www.zorgkaartnederland.nl/zorginstelling/tandartsenpraktijk-tandartspraktijk-amerongen-amerongen-3042928",
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-11-05T13:22:37Z"
  }
 }

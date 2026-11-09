@@ -17469,5 +17469,286 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-11-05T13:22:37Z"
+ },
+ "tandartspraktijk p.s. jonker|'s-gravenhage": {
+  "practice": "Tandartspraktijk P.S. Jonker",
+  "city": "'s-Gravenhage",
+  "website": "https://www.psjonker.nl",
+  "website_title": "Praktijk - Tandartsgroepspraktijk Jonker",
+  "description": "Welkom bij Tandartsgroepspraktijk Jonker in Den Haag",
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "info@psjonker.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Helma Mostert Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.psjonker.nl/assets/files/helma-jonker-mostert-mondhygieniste.240x0.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Francois van Heerde Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.psjonker.nl/assets/files/francois-van-heerde-mondhygienist.240x0.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Safoora Shams Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.psjonker.nl/assets/files/safoora.240x0.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Mansooreh Kagozar Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.psjonker.nl/assets/files/mansooreh-kagozar-mondhygieniste.240x0.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Ruth Pronk Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.psjonker.nl/assets/files/ruth-pronk.240x0.jpg",
+    "big_number": null
+   },
+   {
+    "name": "Hanna de Punder Mondhygiëniste",
+    "title": "mondhygiënist",
+    "photo": "https://www.psjonker.nl/assets/files/hanna-de-punder.240x0.png",
+    "big_number": null
+   },
+   {
+    "name": "Tandartsgroepspraktijk Jonker",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Dick Keulemans Algemeen",
+    "title": "orthodontist",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Reanne Hek Algemeen",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Nathalie Bobbe Assistente",
+    "title": "mondhygiënist",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Helma Mostert Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Francois van Heerde Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Safoora Shams Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Mansooreh Kagozar Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Ruth Pronk Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Hanna de Punder Mondhygiëniste",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Tandartsgroepspraktijk Jonker",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "J.T. Jonker",
+    "big_number": "89021897002",
+    "note": "actieve BIG-registratie als Tandarts"
+   },
+   {
+    "name": "Dick Keulemans Algemeen",
+    "title": "orthodontist",
+    "expected_group": "orthodontist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "no_title_check",
+    "note": "titel vereist geen BIG-registratie"
+   },
+   {
+    "name": "Reanne Hek Algemeen",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   },
+   {
+    "name": "Nathalie Bobbe Assistente",
+    "title": "mondhygiënist",
+    "expected_group": "Mondhygiënist",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Mondhygiënist — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-11-09T14:06:47Z"
+ },
+ "tandartspraktijk de regentes|'s-gravenhage": {
+  "practice": "Tandartspraktijk de Regentes",
+  "city": "'s-Gravenhage",
+  "website": "https://tandartsderegentes.nl",
+  "website_title": "Praktijk – Tandartspraktijk de Regentes",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": "Ma 09:00-17:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "17:00",
+  "team": [
+   {
+    "name": "Ratna Soman",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": "89912212302"
+   },
+   {
+    "name": "Bijzondere Tandheelkunde",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Awinash Soman",
+    "title": "praktijkmanager",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Vrije Universiteit Amsterdam",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Astrid Paro-preventieassistente",
+    "title": "preventieassistent",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Tandheelkunde Ontstoken",
+    "title": "preventieassistent",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Regentes Beeklaan",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "All Rights Reserved",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Ratna Soman",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "registered",
+    "matched_name": "R.S. Soman-Mohan",
+    "big_number": "89912212302",
+    "note": "actieve BIG-registratie als Tandarts",
+    "site_big_number": "89912212302"
+   },
+   {
+    "name": "Bijzondere Tandheelkunde",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Vrije Universiteit Amsterdam",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Regentes Beeklaan",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "All Rights Reserved",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-11-09T14:07:08Z"
  }
 }

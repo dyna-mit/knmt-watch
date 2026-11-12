@@ -17750,5 +17750,28 @@
    }
   ],
   "enriched_at": "2026-11-09T14:07:08Z"
+ },
+ "tandartspraktijk kalmeijer|gouda": {
+  "practice": "Tandartspraktijk Kalmeijer",
+  "city": "Gouda",
+  "website": "https://tandartskalmeijer.nl",
+  "website_title": "Tandartspraktijk Kalmeijer",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "praktijk@tandartskalmeijer.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": "Ma 08:00-17:00, Di 08:00-17:00, Wo 08:00-16:00, Do 08:00-17:00",
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": "17:00",
+  "team": [],
+  "big_checks": [],
+  "enriched_at": "2026-11-12T13:55:23Z"
  }
 }

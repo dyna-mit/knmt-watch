@@ -17773,5 +17773,58 @@
   "team": [],
   "big_checks": [],
   "enriched_at": "2026-11-12T13:55:23Z"
+ },
+ "tandartsenpraktijk nieuwveen|nieuwveen": {
+  "practice": "Tandartsenpraktijk Nieuwveen",
+  "city": "Nieuwveen",
+  "website": "https://tandartspraktijknieuwveen.nl",
+  "website_title": "Tandartspraktijk Nieuwveen – Uw vertrouwde tandarts in Nieuwveen",
+  "description": null,
+  "kvk": null,
+  "kvk_url": null,
+  "emails": [
+   "balie@tandartspraktijknieuwveen.nl"
+  ],
+  "practice_photo": null,
+  "rating": null,
+  "reviews": null,
+  "zorgkaart_url": null,
+  "opening_hours": null,
+  "has_weekend": false,
+  "has_evening": false,
+  "latest_close": null,
+  "team": [
+   {
+    "name": "Preventie Gaat",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   },
+   {
+    "name": "Locatie Snel",
+    "title": "tandarts",
+    "photo": null,
+    "big_number": null
+   }
+  ],
+  "big_checks": [
+   {
+    "name": "Preventie Gaat",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   },
+   {
+    "name": "Locatie Snel",
+    "title": "tandarts",
+    "expected_group": "Tandarts",
+    "search_url": "https://www.bigregister.nl/zoek-zorgverlener",
+    "status": "unverified",
+    "note": "niet automatisch te bevestigen als Tandarts — controleer handmatig"
+   }
+  ],
+  "enriched_at": "2026-11-19T14:34:40Z"
  }
 }
